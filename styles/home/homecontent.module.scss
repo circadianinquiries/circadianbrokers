@@ -1,0 +1,90 @@
+.homecContentSec {
+  .subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #263358;
+    margin-bottom: 10px;
+  }
+  .homeImage {
+    position: relative;
+    height: 100%;
+    img {
+      object-fit: contain;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .homecContentSec {
+    .subtitle {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .homecContentSec {
+    .subtitle {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .homecContentSec {
+    .subtitle {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .homecContentSec {
+    .subtitle {
+      font-size: 16px;
+      line-height: 16px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .homecContentSec {
+    .subtitle {
+      font-size: 15px;
+      line-height: 15px;
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .homecContentSec {
+    .subtitle {
+      font-size: 15px;
+      line-height: 15px;
+    }
+    .homeImage {
+      position: relative;
+      height: 200px;
+      margin-top: 20px;
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .homecContentSec {
+    .subtitle {
+      font-size: 15px;
+      line-height: 15px;
+    }
+    .homeImage {
+      position: relative;
+      height: 200px;
+      margin-top: 20px;
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+}

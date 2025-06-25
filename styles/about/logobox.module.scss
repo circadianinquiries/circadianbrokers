@@ -1,0 +1,117 @@
+.LogoBoxSection {
+  background: #ca0101;
+  .logoMainBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .imgBox {
+      position: relative;
+      height: 80px;
+      flex: 0 0 calc(100% / 5);
+      img {
+        object-fit: contain;
+      }
+      &:last-child {
+        flex: 0 0 80px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .LogoBoxSection {
+    .logoMainBox {
+      .imgBox {
+        height: 60px;
+        flex: 0 0 calc(100% / 5);
+        &:last-child {
+          flex: 0 0 80px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .LogoBoxSection {
+    .logoMainBox {
+      .imgBox {
+        height: 60px;
+        flex: 0 0 calc(100% / 5);
+        &:last-child {
+          flex: 0 0 80px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .LogoBoxSection {
+    .logoMainBox {
+      .imgBox {
+        height: 50px;
+        flex: 0 0 calc(100% / 5);
+        &:last-child {
+          flex: 0 0 80px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .LogoBoxSection {
+    .logoMainBox {
+      .imgBox {
+        height: 45px;
+        flex: 0 0 calc(100% / 5);
+        &:last-child {
+          flex: 0 0 70px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .LogoBoxSection {
+    .logoMainBox {
+      .imgBox {
+        height: 45px;
+        flex: 0 0 calc(100% / 5);
+        &:last-child {
+          flex: 0 0 70px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .LogoBoxSection {
+    .logoMainBox {
+      flex-wrap: wrap;
+      justify-content: center;
+      .imgBox {
+        margin-top: 20px;
+        height: 45px;
+        flex: 0 0 calc(100% / 3);
+        &:last-child {
+          flex: 0 0 70px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .LogoBoxSection {
+    .logoMainBox {
+      flex-wrap: wrap;
+      justify-content: center;
+      .imgBox {
+        margin-top: 20px;
+        height: 40px;
+        flex: 0 0 calc(100% / 2);
+        &:last-child {
+          flex: 0 0 70px;
+        }
+      }
+    }
+  }
+}

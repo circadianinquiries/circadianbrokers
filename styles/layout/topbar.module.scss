@@ -1,0 +1,85 @@
+.topbarSection {
+  height: 50px;
+  background: #263358;
+  .contactInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    li {
+      span {
+        margin-right: 10px;
+      }
+      a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #ffffff;
+        transition: color 0.3s ease;
+        &:hover {
+          transition: color 0.3s ease;
+          color: rgba(255, 255, 255, 0.5);
+        }
+      }
+      &:last-child {
+        background: #fff;
+        height: 35px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 50px;
+        padding: 0px 20px;
+        span {
+          margin-right: 10px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #263358;
+        }
+        a {
+          font-weight: 600;
+          color: #263358;
+          transition: color 0.3s ease;
+          &:hover {
+            transition: color 0.3s ease;
+            color: #ca0101;
+          }
+        }
+      }
+    }
+  }
+  .socailInfo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    li {
+      a {
+        transition: color 0.3s ease;
+        &:hover {
+          transition: color 0.3s ease;
+          svg {
+            circle {
+              fill: #ca0101;
+            }
+            path {
+              fill: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .topbarSection {
+    display: none;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .topbarSection {
+    display: none;
+  }
+}

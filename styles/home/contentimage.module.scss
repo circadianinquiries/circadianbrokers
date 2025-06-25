@@ -1,0 +1,33 @@
+.simpleContentSec {
+  .homeImage {
+    position: relative;
+    height: 100%;
+    img {
+      object-fit: cover;
+      border-radius: 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .simpleContentSec {
+    .homeImage {
+      height: 300px;
+      margin-top: 20px;
+      img {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .simpleContentSec {
+    .homeImage {
+      height: 300px;
+      margin-top: 20px;
+      img {
+        border-radius: 15px;
+      }
+    }
+  }
+}

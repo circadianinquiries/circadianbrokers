@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "media/*": [
+        "./public/*"
+      ]
+    }
+  }
+}
