@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://circadianbrokers.com/"),
+  metadataBase: new URL("https://www.circadianbrokers.com/"),
   title: "Insurance Broker in California",
   description:
     "Expert Insurance Brokers in California serving Brentwood & Bay Area. We shop multiple carriers to find you the best rates on auto, home & business insurance.",
@@ -31,6 +31,9 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/" },
+  other: {
+    "google-site-verification": "P6qQozJzN0Mp-C5fGqj_koLTIb6sv43Shuc1upxK-wE",
+  },
   //===== No-Index =====
   robots: {
     index: true,

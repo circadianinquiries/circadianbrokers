@@ -8,6 +8,7 @@ const GA_ID = "G-6Y11JM000C";
 export default function GTM() {
     return (
         <>
+
             {/* Google Tag Manager */}
             <Script id="gtm-init" strategy="afterInteractive">
                 {`
