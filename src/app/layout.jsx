@@ -5,7 +5,7 @@ import Footer from "@/src/app/layout/footer";
 import Header from "@/src/app/layout/header";
 import TopBar from "@/src/app/layout/topbar";
 import { Toaster } from "react-hot-toast";
-
+import GTM from "@/src/app/GTM";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -33,8 +33,8 @@ export const metadata = {
   alternates: { canonical: "/" },
   //===== No-Index =====
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
@@ -45,6 +45,18 @@ export default function RootLayout({ children }) {
         <Toaster position="bottom-right" reverseOrder={false} />
         <TopBar />
         <Header />
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-K2PDTJCJ"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+
+        {/* GTM/GA Scripts */}
+        <GTM />
         {children}
         <Footer />
       </body>
