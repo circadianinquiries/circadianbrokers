@@ -6,11 +6,21 @@ import { Col, Container, Row } from "react-bootstrap";
 import MainLogo from "media/layout/mainLogo.webp";
 import Image from "next/image";
 import { ClosedIcon, NavIcon } from "../app-constants";
-
+import { usePathname } from "next/navigation";
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
     const [isActive, setIsActive] = useState(false);
+    const pathname = usePathname();
+    const customQuotePaths = [
+        "/homeowner-insurance",
+        "/wildfire-home-insurance",
+        "/condo-insurance",
+    ];
 
+
+    const quoteLink = customQuotePaths.includes(pathname)
+        ? "/home-insurance-from"
+        : "/quotes";
     useEffect(() => {
         const handleScroll = () => {
             setScrolled(window.scrollY > 10);
@@ -60,7 +70,7 @@ const Header = () => {
                             <li><Link href="/quotes" onClick={handleClick}>Quotes</Link></li>
                             <li><Link href="/about-us" onClick={handleClick}>About</Link></li>
                             <li><Link href="/contact-us" onClick={handleClick}>Contact Us</Link></li>
-                            <li><Link href="/quotes" onClick={handleClick}>Request a Quote</Link></li>
+                            <li><Link href={quoteLink} onClick={handleClick}>Request a Quote</Link></li>
                         </ul>
                     </Col>
                 </Row>
