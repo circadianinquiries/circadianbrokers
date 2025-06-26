@@ -1,10 +1,11 @@
 import Banner from "@/src/app/components/product/banner";
-import { BannerData, SimpleData1, TestimonialData, BrokerData, SimpleData, BlueContentData, ProductContentData } from "@/src/app/umbrella-insurance/data/data";
+import { BannerData, SimpleData1, BrokerData, SimpleData, BlueContentData, ProductContentData } from "@/src/app/umbrella-insurance/data/data";
 import Testimonial from "@/src/app/components/product/testimonial";
 import BlueContentSection from "@/src/app/components/product/bluecontentsection";
 import Broker from "@/src/app/components/about/broker";
 import SimpleContent from "@/src/app/components/product/simplecontent";
 import ContenSection from "@/src/app/components/product/contentsection";
+import { TestimonialData } from "@/src/app/products/data/data";
 
 const Page = () => {
   return (

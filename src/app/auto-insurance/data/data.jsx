@@ -38,28 +38,6 @@ export const SimpleData = {
     </>),
 
 }
-export const TestimonialData = [
-    {
-        title: "Mark R.",
-        txt: "I was in need of new motorcycle insurance, and Circadian Insurance Brokers made the whole process so easy. From the initial quote to the finalization of the policy, their team was quick, friendly, and professional. I’m now covered and feeling confident on the road!",
-        star: "5",
-    },
-    {
-        title: "Emily Larson",
-        txt: "I needed renter’s insurance quickly, and Circadian Insurance Brokers exceeded my expectations. They found me an affordable policy that covered everything I needed. Their knowledgeable and friendly team cares about getting you the right coverage.",
-        star: "5",
-    },
-    {
-        title: "Jason P.",
-        txt: "As a small business owner, insurance has always been on my mind. Circadian Insurance Brokers helped me navigate the options and secure the perfect policy tailored to my needs. Their team made the process stress-free, and I know I’m in great hands. I’ll be a customer for life!",
-        star: "5",
-    },
-    {
-        title: "Sarah Thompson",
-        txt: "I dreaded finding new home and auto insurance, but Circadian Insurance Brokers made it a breeze. They took the time to understand my needs and quickly found me the best options. I highly recommend them to anyone in California looking for reliable and efficient service!",
-        star: "5",
-    },
-]
 
 import BgImage from "media/product/auto/ProductContentImg.webp"
 export const ProductContentData = {

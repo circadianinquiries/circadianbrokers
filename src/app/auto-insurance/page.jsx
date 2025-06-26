@@ -1,9 +1,10 @@
 import Banner from "@/src/app/components/product/banner";
-import { BannerData, ProductContentData, TestimonialData, BrokerData, SimpleData } from "@/src/app/auto-insurance/data/data";
+import { BannerData, ProductContentData, BrokerData, SimpleData } from "@/src/app/auto-insurance/data/data";
 import Testimonial from "@/src/app/components/product/testimonial";
 import ContenSection from "@/src/app/components/product/contentsection";
 import Broker from "@/src/app/components/about/broker";
 import SimpleContent from "@/src/app/components/product/simplecontent";
+import { TestimonialData } from "@/src/app/products/data/data";
 
 
 const Page = () => {

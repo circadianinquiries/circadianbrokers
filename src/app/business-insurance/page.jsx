@@ -1,11 +1,11 @@
 import Banner from "@/src/app/components/product/banner";
-import { BannerData, ProductContentData, TestimonialData, BrokerData, SimpleData, BlueContentData, SimpleData1, BlueContentData1 } from "@/src/app/business-insurance/data/data";
+import { BannerData, ProductContentData, BrokerData, SimpleData, BlueContentData, SimpleData1, BlueContentData1 } from "@/src/app/business-insurance/data/data";
 import Testimonial from "@/src/app/components/product/testimonial";
 import ContenSection from "@/src/app/components/product/contentsection";
 import Broker from "@/src/app/components/about/broker";
 import SimpleContent from "@/src/app/components/product/simplecontent";
 import BlueContentSection from "@/src/app/components/product/bluecontentsection";
-
+import { TestimonialData } from "@/src/app/products/data/data";
 const Page = () => {
   return (
     <>
