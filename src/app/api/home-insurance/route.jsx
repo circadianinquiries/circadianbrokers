@@ -21,13 +21,14 @@ const questions = [
   "Purchase date",
   "Any business on the premises, i.e., daycare/beautician",
   "Contact phone number",
+  "Contact Email Address",
   "How did you hear about us",
 ];
 
 export async function POST(req) {
   const answers = await req.json();
 
-  if (!Array.isArray(answers) || answers.length !== 19) {
+  if (!Array.isArray(answers) || answers.length !== 20) {
     return NextResponse.json({ message: "Invalid form data" }, { status: 400 });
   }
 

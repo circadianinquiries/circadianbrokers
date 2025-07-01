@@ -68,6 +68,11 @@
           -webkit-appearance: none; // Chrome, Safari
           margin: 0;
         }
+        &[type="email"] {
+          max-width: 450px;
+          height: 60px;
+          width: 100%;
+        }
       }
       label {
         font-size: 20px;

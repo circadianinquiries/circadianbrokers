@@ -24,6 +24,7 @@ const questions = [
   "Purchase date",
   "Any business on the premises, i.e., daycare/beautician",
   "Contact phone number",
+  "Contact Email Address",
   "How did you hear about us",
 ];
 
@@ -42,8 +43,9 @@ const Page = () => {
   const plumbingIndex = questions.indexOf("Type of plumbing, i.e., copper, PVC, etc.");
   const electricalIndex = questions.indexOf("Does the electrical system have circuit breakers");
   const phoneIndex = questions.indexOf("Contact phone number");
+  const emailIndex = questions.indexOf("Contact Email Address");
   const referralIndex = questions.indexOf("How did you hear about us");
-
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const handleChange = (e) => {
     const updatedAnswers = [...answers];
     updatedAnswers[currentStep] = e.target.value;
@@ -51,6 +53,11 @@ const Page = () => {
   };
 
   const handleNext = () => {
+    if (answers[currentStep].trim() === "") {
+      toast.error("Please fill out this field.");
+      return;
+    }
+
     if (currentStep === plumbingIndex && plumbingOptions.length === 0) {
       toast.error("Please select at least one plumbing type.");
       return;
@@ -61,15 +68,18 @@ const Page = () => {
       return;
     }
 
-    if (answers[currentStep].trim() === "") {
-      toast.error("Please fill out this field.");
-      return;
+    if (currentStep === emailIndex) {
+      if (!emailRegex.test(answers[emailIndex])) {
+        toast.error("Please enter a valid email address.");
+        return; // do NOT proceed
+      }
     }
 
     if (currentStep < questions.length - 1) {
       setCurrentStep(currentStep + 1);
     }
   };
+
 
   const handlePrev = () => {
     if (currentStep > 0) {
@@ -95,7 +105,10 @@ const Page = () => {
       toast.error("Please answer all questions before submitting.");
       return;
     }
-
+    if (!emailRegex.test(finalAnswers[emailIndex])) {
+      toast.error("Please enter a valid email address.");
+      return;
+    }
     setIsSubmitting(true);
 
     try {
@@ -119,6 +132,8 @@ const Page = () => {
     } finally {
       setIsSubmitting(false);
     }
+
+
   };
 
   const buildPlumbingAnswer = (options, otherText) => {
@@ -241,6 +256,14 @@ const Page = () => {
                     <input
                       type="number"
                       placeholder="Enter phone number"
+                      value={answers[currentStep]}
+                      onChange={handleChange}
+                      required
+                    />
+                  ) : currentStep === emailIndex ? (
+                    <input
+                      type="email"
+                      placeholder="Enter email address"
                       value={answers[currentStep]}
                       onChange={handleChange}
                       required
