@@ -7,6 +7,7 @@ import TopBar from "@/src/app/layout/topbar";
 import { Toaster } from "react-hot-toast";
 import GTM from "@/src/app/GTM";
 
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800", "900"],
