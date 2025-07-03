@@ -62,11 +62,7 @@ export async function POST(req) {
 
         await transporter.sendMail({
             from: process.env.EMAIL_USER,
-            to: [
-                process.env.EMAIL_USER,
-                "seoproduction@inhousedept.com",
-                "info@circadianbrokers.com",
-            ],
+            to: `${process.env.EMAIL_USER}, seoproduction@inhousedept.com, info@circadianbrokers.com`,
             subject: 'New Insurance Submission',
             text: emailBody,
         });

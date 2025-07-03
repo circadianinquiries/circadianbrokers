@@ -85,11 +85,7 @@ export async function POST(req) {
     // Send the email
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
-      to: [
-        process.env.EMAIL_USER,
-        "seoproduction@inhousedept.com",
-        "info@circadianbrokers.com",
-      ],
+      to: `${process.env.EMAIL_USER}, seoproduction@inhousedept.com, info@circadianbrokers.com`,
       subject: 'New Home Insurance Form Submission',
       text: textBody,
       html: htmlBody,
