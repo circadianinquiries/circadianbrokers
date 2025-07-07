@@ -15,6 +15,21 @@ const Header = () => {
         "/homeowner-insurance",
         "/wildfire-home-insurance",
         "/condo-insurance",
+        "/home-insurance-quote-antioch-ca",
+        "/home-insurance-quote-byron-ca",
+        "/home-insurance-quote-clayton-ca",
+        "/home-insurance-quote-discovery-bay-ca",
+        "/home-insurance-quote-livermore-ca",
+        "/home-insurance-quote-oakley-ca",
+        "/home-insurance-quote-pittsburg-ca",
+        "/home-insurance-quote-pleasanton-ca",
+        "/wildfire-home-insurance-quote-antioch-ca",
+        "/wildfire-home-insurance-quote-byron-ca",
+        "/wildfire-home-insurance-quote-clayton-ca",
+        "/wildfire-home-insurance-quote-discovery-bay-ca",
+        "/wildfire-home-insurance-quote-livermore-ca",
+        "/wildfire-home-insurance-quote-oakley-ca",
+        "/wildfire-home-insurance-quote-pleasanton-ca",
     ];
 
 
