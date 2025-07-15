@@ -3,8 +3,18 @@ import Image from "next/image"
 import { Col, Container, Row } from 'react-bootstrap'
 import Link from "next/link"
 
+// Helper function to truncate text to a word limit
+const truncateWords = (text, wordLimit = 20) => {
+    if (!text || typeof text !== "string") return "";
+    const words = text.split(" ");
+    return words.length > wordLimit
+        ? words.slice(0, wordLimit).join(" ") + "..."
+        : text;
+};
+
 
 const Blogs = ({ data, blogPage }) => {
+
     return (
         <section className={`pt-100 ${styles.blogsSection}`}>
             <Container>
@@ -24,7 +34,7 @@ const Blogs = ({ data, blogPage }) => {
                                 <div className={styles.blogTxt}>
                                     <h5><Link href={item.link}>{item.title}</Link></h5>
                                     <div className={styles.datatime}>{item.date} | <span>{item.category}</span></div>
-                                    <p>{item.txt}</p>
+                                    <p>{truncateWords(item.txt)}</p>
                                     <Link href={item.link} className={styles.btnMore}>Read More</Link>
                                 </div>
 
