@@ -2,17 +2,17 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Expert Book Publishing Tips & Latest Marketing Insights",
-  description: "Get expert tips on writing, editing, publishing, and marketing your book. Read our blogs for expert advice and insights for authors.",
+  title: " Insurance Blog & Resources - Circadian Insurance Brokers CA",
+  description: "Expert insurance tips and insights for California residents. Get the latest advice on auto, home, and business insurance from experienced brokers.",
   //===== OG Tags =====
   openGraph: {
-    title: "Expert Book Publishing Tips & Latest Marketing Insights",
-    description: "Get expert tips on writing, editing, publishing, and marketing your book. Read our blogs for expert advice and insights for authors.",
+    title: " Insurance Blog & Resources - Circadian Insurance Brokers CA",
+    description: "Expert insurance tips and insights for California residents. Get the latest advice on auto, home, and business insurance from experienced brokers.",
     url: '/blogs',
-    siteName: "Inifniti Digital",
-    locale: 'en_US',
-    type: 'website',
-    images: "https://www.bookwriting.us/logo.png",
+    siteName: " Circadian Insurance Brokers",
+    locale: "en_US",
+    type: "website",
+    images: "#",
   },
   //===== Canonical =====
   alternates: { canonical: '/blogs' },

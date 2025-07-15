@@ -5,7 +5,6 @@ import Blogs from "@/src/app/blogs/blogs";
 const Page = () => {
     return (
         <>
-            <Banner data={BannerData} />
             <Blogs data={BlgosData} blogPage={true} />
 
         </>
