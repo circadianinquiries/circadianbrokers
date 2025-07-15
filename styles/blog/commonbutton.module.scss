@@ -1,0 +1,85 @@
+.SimpleBtn {
+  background: #ff7f3e;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-radius: 100px;
+  color: #fff;
+  min-width: 200px;
+  margin: 20px auto 40px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.3s;
+  width: auto;
+  padding: 0px 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  &:hover {
+    background: #000;
+    transition: background 0.3s, transform 0.3s;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .SimpleBtn {
+    height: 55px;
+    min-width: 200px;
+    margin: 20px auto 40px;
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .SimpleBtn {
+    height: 55px;
+    min-width: 200px;
+    margin: 20px auto 40px;
+    font-size: 15px;
+    padding: 0px 20px;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .SimpleBtn {
+    height: 50px;
+    min-width: 200px;
+    margin: 20px auto 30px;
+    font-size: 14px;
+    padding: 0px 20px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .SimpleBtn {
+    height: 50px;
+    min-width: 200px;
+    margin: 20px auto 30px;
+    font-size: 14px;
+    padding: 0px 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .SimpleBtn {
+    height: 50px;
+    min-width: 200px;
+    margin: 20px auto 30px;
+    font-size: 14px;
+    padding: 0px 20px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .SimpleBtn {
+    height: 50px;
+    min-width: 200px;
+    margin: 20px auto 30px;
+    font-size: 14px;
+    padding: 0px 20px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .SimpleBtn {
+    height: 50px;
+    min-width: 200px;
+    margin: 20px auto 30px;
+    font-size: 14px;
+    padding: 0px 20px;
+  }
+}

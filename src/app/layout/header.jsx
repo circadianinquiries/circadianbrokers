@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 import MainLogo from "media/layout/mainLogo.webp";
 import Image from "next/image";
-import { ClosedIcon, NavIcon } from "../app-constants";
+import { ClosedIcon, NavIcon } from "@/src/app/app-constants";
 import { usePathname } from "next/navigation";
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -84,6 +84,7 @@ const Header = () => {
                             <li><Link href="/products" onClick={handleClick}>Products</Link></li>
                             <li><Link href="/quotes" onClick={handleClick}>Quotes</Link></li>
                             <li><Link href="/about-us" onClick={handleClick}>About</Link></li>
+                            <li><Link href="/blogs" onClick={handleClick}>Blogs</Link></li>
                             <li><Link href="/contact-us" onClick={handleClick}>Contact Us</Link></li>
                             <li><Link href={quoteLink} onClick={handleClick}>Request a Quote</Link></li>
                         </ul>

@@ -1,0 +1,45 @@
+.bannerBlogSection {
+  height: 400px;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .bannerBlogSection {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .bannerBlogSection {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .bannerBlogSection {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .bannerBlogSection {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .bannerBlogSection {
+    height: 280px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .bannerBlogSection {
+    height: 240px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .bannerBlogSection {
+    height: 300px;
+  }
+}

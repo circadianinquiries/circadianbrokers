@@ -114,6 +114,34 @@ body {
       }
     }
   }
+  .subtitle {
+    width: auto;
+    height: 60px;
+    background: #ca01013a;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.241964px;
+    color: #ca0101;
+    text-align: center;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+  }
+  .blogImage {
+    position: relative;
+    height: 500px;
+    margin: 20px 0px;
+    img {
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+    }
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -169,6 +197,13 @@ body {
       }
     }
   }
+  .subtitle {
+    height: 55px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   body {
@@ -223,6 +258,13 @@ body {
       }
     }
   }
+  .subtitle {
+    height: 50px;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 0px 25px;
+    margin-bottom: 15px;
+  }
 }
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   body {
@@ -276,6 +318,14 @@ body {
         }
       }
     }
+  }
+  .subtitle {
+    height: 45px;
+    font-size: 15px;
+    line-height: 23px;
+    padding: 0px 25px;
+    margin-bottom: 15px;
+    font-weight: 500;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
@@ -332,6 +382,14 @@ body {
       }
     }
   }
+  .subtitle {
+    height: 35px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 25px;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   body {
@@ -386,6 +444,14 @@ body {
       }
     }
   }
+  .subtitle {
+    height: 32px;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0px 25px;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   body {
@@ -439,6 +505,14 @@ body {
         }
       }
     }
+  }
+  .subtitle {
+    height: 30px;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0px 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
@@ -503,5 +577,13 @@ body {
         height: auto;
       }
     }
+  }
+  .subtitle {
+    height: 30px;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0px 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
   }
 }
