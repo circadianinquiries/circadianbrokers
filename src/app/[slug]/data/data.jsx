@@ -4,6 +4,11 @@ import IMG03 from "media/blogs/posts/blog03.webp"
 import IMG04 from "media/blogs/posts/blog04.webp"
 import IMG05 from "media/blogs/posts/blog05.webp"
 import IMG06 from "media/blogs/posts/blog06.webp"
+import IMG07 from "media/blogs/posts/blog07.webp"
+import IMG08 from "media/blogs/posts/blog08.webp"
+import IMG09 from "media/blogs/posts/blog09.webp"
+import IMG10 from "media/blogs/posts/blog10.webp"
+import IMG11 from "media/blogs/posts/blog11.webp"
 
 import Image from "next/image";
 //  POST 1
@@ -21,6 +26,15 @@ import Post2Image3 from "media/blogs/posts/post2/img03.webp"
 import Post3Image1 from "media/blogs/posts/post3/img01.webp"
 import Post3Image2 from "media/blogs/posts/post3/img02.webp"
 import Post3Image3 from "media/blogs/posts/post3/img03.webp"
+//  POST 7
+import Post7Image1 from "media/blogs/posts/post7/img01.webp"
+import Post7Image2 from "media/blogs/posts/post7/img02.webp"
+import Post7Image3 from "media/blogs/posts/post7/img03.webp"
+import Post7Image4 from "media/blogs/posts/post7/img04.webp"
+import Post7Image5 from "media/blogs/posts/post7/img05.webp"
+//  POST 9
+import Post9Image1 from "media/blogs/posts/post9/img01.webp"
+import Post9Image2 from "media/blogs/posts/post9/img02.webp"
 
 
 export const BlogData = [
@@ -667,15 +681,15 @@ export const BlogData = [
       { title: "Tips to Lower Your Auto Insurance Premium" },
       { title: "Final Thoughts" },
     ],
-    tit: "What Is an Auto Insurance Premium and How It's Calculated",
+    tit: "What Is an Auto Insurance Premium and How It’s Calculated",
     description:
-      "Learn what an auto insurance premium is, how it's calculated, and what factors affect your rate. Get clear insights from Circadian Insurance.",
+      "Learn what an auto insurance premium is, how it’s calculated, and what factors affect your rate. Get clear insights from Circadian Insurance.",
     slug: "what-is-an-auto-insurance-premium-and-how-is-it-calculated",
     title: "What Is an Auto Insurance Premium and How Is It Calculated?",
     date: "15 July, 2025",
     img: IMG06.src,
     maintxt: (<>
-      <p>If you own a vehicle, you've likely come across the term auto insurance premium, and if you're like most drivers, you’ve wondered why your rates are what they are. Auto insurance premiums can seem mysterious, but they’re based on real data, risk factors, and calculations designed to keep you and the insurer protected.</p>
+      <p>If you own a vehicle, you’ve likely come across the term auto insurance premium, and if you’re like most drivers, you’ve wondered why your rates are what they are. Auto insurance premiums can seem mysterious, but they’re based on real data, risk factors, and calculations designed to keep you and the insurer protected.</p>
       <p>This blog will break down what an auto insurance premium is, how it’s calculated, and what you can do to manage it. Whether you’re a first-time driver or reviewing your coverage after years on the road, understanding the components of your premium gives you more control over your financial choices.</p>
       <div id="Section-1">
         <h2>What Is an Auto Insurance Premium?</h2>
@@ -726,7 +740,7 @@ export const BlogData = [
       <div id="Section-3">
         <h2>How Circadian Insurance Brokers Helps You Save</h2>
         <p>Understanding how your premium is calculated is the first step. The next is working with a broker who knows how to navigate the insurance market and advocate for your best rate.</p>
-        <p>We don’t offer cookie-cutter policies. Instead, we match your unique needs with personalized coverage that makes sense — whether you're shopping for <Link href="/auto-insurance">auto insurance in Brentwood CA</Link> or covering a small business fleet across the state.</p>
+        <p>We don’t offer cookie-cutter policies. Instead, we match your unique needs with personalized coverage that makes sense — whether you’re shopping for <Link href="/auto-insurance">auto insurance in Brentwood CA</Link> or covering a small business fleet across the state.</p>
         <p>We compare options from multiple trusted insurers, find discounts you may not know about, and make sure your coverage reflects the latest California regulations, like the new liability minimums that took effect in 2025.</p>
       </div>
       <div id="Section-4">
@@ -746,6 +760,681 @@ export const BlogData = [
         <p>If you’re looking for auto insurance in Brentwood, CA, or anywhere across California, we offer expert guidance, competitive quotes, and personal service you can count on.</p>
         <p>Want help reviewing your current policy or getting a better rate?</p>
         <p><strong>Contact today — and let’s find coverage that works for you.</strong></p>
+      </div>
+    </>)
+  },
+  {
+    tableContent: [
+      { title: "Liability Coverage: The Legal Minimum" },
+      { title: "Collision Coverage: Protection for Your Own Vehicle" },
+      { title: "Comprehensive Coverage: Beyond Collisions" },
+      { title: "Uninsured/Underinsured Motorist (UM/UIM) Coverage" },
+      { title: "Medical Payments (MedPay): Support for You and Your Passengers" },
+      { title: "Roadside Assistance & Rental Reimbursement: Everyday Peace of Mind" },
+      { title: "Why Coverage Matters: Real-Life Scenarios" },
+      { title: "Our Approach: Personal, Local, Reliable" },
+      { title: "Final Thoughts: Insurance That Actually Works for You" },
+    ],
+    tit: "6 Car Insurance Coverages Types Offered by Circadian Brokers",
+    description:
+      "Explore 6 essential car insurance coverages offered by Circadian Brokers, from liability to comprehensive, tailored protection for California drivers.",
+    slug: "6-car-insurance-coverages-types-offered-by-circadian-brokers",
+    title: "Six Types of Car Insurance Coverages Offered by Circadian Brokers",
+    date: "31 July, 2025",
+    img: IMG07.src,
+    maintxt: (<>
+      <p>Car insurance is not just about fulfilling legal requirements—it’s about protecting your future. Whether you’re commuting daily, running errands around town, or heading out for a road trip, the right coverage can save you from major financial setbacks in case of an accident or unexpected event.</p>
+      <p>We believe in making car insurance straightforward. We offer a wide range of coverage options designed to meet California’s legal requirements while giving drivers real peace of mind. Below are six essential types of car insurance coverage we offer—each tailored to match your unique lifestyle and driving needs.</p>
+
+      <div id="Section-1">
+        <h2>Liability Coverage: The Legal Minimum (and Why You May Want More)</h2>
+        <div className="blogImage">
+          <Image src={Post7Image1.src} alt="Liability Coverage: The Legal Minimum (and Why You May Want More)" fill />
+        </div>
+        <p>As of <strong>January 1, 2025,</strong> California’s new minimum auto insurance requirements are:</p>
+        <ul>
+          <li><strong>$30,000</strong> for bodily injury liability per person</li>
+          <li><strong>$60,000</strong> for bodily injury liability per accident</li>
+          <li><strong>$15,000</strong> for property damage liability per accident</li>
+        </ul>
+        <p>This coverage pays for injuries or damage you cause to others in an accident. However, minimum limits are just that—minimum. In serious accidents, they may not go far.</p>
+        <p>At Circadian, we educate our clients about liability risk and help them assess whether higher limits make sense, especially if they have assets to protect. For residents searching for <Link href="/auto-insurance">Auto Insurance in Brentwood CA,</Link> understanding liability limits is critical, not just for compliance, but for protection.</p>
+      </div>
+      <div id="Section-2">
+        <h2>Collision Coverage: Protection for Your Own Vehicle</h2>
+        <div className="blogImage">
+          <Image src={Post7Image2.src} alt="Collision Coverage: Protection for Your Own Vehicle" fill />
+        </div>
+        <p>While liability covers damage you cause to others, collision coverage protects your own vehicle, regardless of who’s at fault.</p>
+        <p>If you collide with another car, hit a pole, or even roll your vehicle, this coverage kicks in to pay for repairs or replacement (after your deductible). It’s particularly valuable if:</p>
+        <ul>
+          <li>Your car is new or leased</li>
+          <li>You have a car loan</li>
+          <li> You drive frequently in high-traffic areas</li>
+        </ul>
+        <p>At Circadian Insurance Brokers, we work with top carriers to secure collision policies that don’t break your budget, making sure your investment stays protected.</p>
+      </div>
+      <div id="Section-3">
+        <h2>Comprehensive Coverage: Beyond Collisions</h2>
+        <p>Comprehensive insurance covers vehicle damage from non-collision events, including:</p>
+        <ul>
+          <li>Theft</li>
+          <li>Vandalism</li>
+          <li>Fire</li>
+          <li>Falling objects</li>
+          <li>Natural disasters (like wildfires or hail)</li>
+          <li>Animal impacts (like hitting a deer)</li>
+        </ul>
+        <p>Given California’s wildfire risks, especially in areas like Brentwood, having comprehensive coverage can be a game-changer. We help clients tailor comprehensive policies to include affordable deductibles and add-ons like glass repair or replacement.</p>
+        <p>This is one of the most commonly bundled options alongside collision, especially for newer or higher-value vehicles.</p>
+      </div>
+      <div id="Section-4">
+        <h2>Uninsured/Underinsured Motorist (UM/UIM) Coverage</h2>
+        <div className="blogImage">
+          <Image src={Post7Image3.src} alt="Uninsured/Underinsured Motorist (UM/UIM) Coverage" fill />
+        </div>
+        <p>What happens if someone hits you and doesn’t have enough (or any) insurance? In California, roughly <strong>16% of drivers are uninsured</strong>. Even more are underinsured.</p>
+        <p>UM/UIM coverage ensures you and your passengers are financially protected if:</p>
+        <ul>
+          <li>You’re hit by an uninsured driver</li>
+          <li>The at-fault driver doesn’t have enough liability insurance to cover your losses</li>
+          <li>You’re the victim of a hit-and-run accident</li>
+        </ul>
+        <p>Circadian strongly recommends this coverage to every client, especially those in areas with higher accident rates or uninsured driving, like certain parts of Contra Costa County.</p>
+        <p>It’s not required by law, but not having it can leave you exposed to out-of-pocket medical costs and vehicle repairs.</p>
+      </div>
+      <div id="Section-5">
+        <h2>Medical Payments (MedPay): Support for You and Your Passengers</h2>
+        <div className="blogImage">
+          <Image src={Post7Image4.src} alt="Medical Payments (MedPay): Support for You and Your Passengers" fill />
+        </div>
+        <p>Even minor accidents can result in costly emergency room visits. Medical Payments coverage, also known as MedPay, helps cover:</p>
+        <ul>
+          <li>Hospital bills</li>
+          <li>Surgery costs</li>
+          <li>Ambulance fees</li>
+          <li>Funeral expenses (in extreme cases)</li>
+        </ul>
+        <p>This coverage applies regardless of who is at fault and is especially valuable if:</p>
+        <ul>
+          <li>You don’t have health insurance</li>
+          <li>You have a high-deductible health plan</li>
+          <li>You frequently drive with passengers</li>
+        </ul>
+        <p>Circadian includes MedPay in many auto insurance packages as a low-cost layer of extra protection, often for just a few dollars per month.</p>
+      </div>
+      <div id="Section-6">
+        <h2>Roadside Assistance & Rental Reimbursement: Everyday Peace of Mind</h2>
+        <div className="blogImage">
+          <Image src={Post7Image5.src} alt="Roadside Assistance & Rental Reimbursement: Everyday Peace of Mind" fill />
+        </div>
+        <p>While not part of the standard auto insurance policy, add-ons like roadside assistance and rental reimbursement can make a big difference in everyday life</p>
+        <ul>
+          <li><strong>Roadside assistance</strong> includes services like towing, battery jump-starts, flat tire changes, and lockout help.  </li>
+          <li><strong>Rental reimbursement</strong> covers the cost of a rental car if your vehicle is being repaired after an accident.  </li>
+        </ul>
+        <p>For drivers in Brentwood and surrounding areas, where public transportation options may be limited, having a rental car available through insurance can be a lifesaver. Circadian helps drivers build packages that include these budget-friendly extras, so you’re never left stranded.</p>
+      </div>
+      <div id="Section-7">
+        <h2>Why Coverage Matters: Real-Life Scenarios</h2>
+        <p>Let’s say you rear-end another driver at a stoplight. Without collision coverage, you’re on the hook for your own car repairs. If the driver you hit files a claim for neck injuries, the minimum liability limits might not be enough, potentially exposing you to personal lawsuits.</p>
+        <p>Now imagine a fire damages your parked car during a summer wildfire. If you only have liability insurance, you’re not covered. But with comprehensive coverage through Circadian, you’re protected.</p>
+      </div>
+      <div id="Section-8">
+        <h2>Our Approach: Personal, Local, Reliable</h2>
+        <p>So what makes us different?</p>
+        <ul>
+          <li>We’re not a corporate call center—we’re locally based and understand the unique insurance needs of California drivers.</li>
+          <li>We build custom coverage packages with top-rated insurance carriers, tailored to your risk profile and budget.</li>
+          <li>We stay on top of changing laws and educate clients, like the new 2025 liability minimums in California.</li>
+          <li>And we’re always here to explain your policy, adjust coverage, or assist in a claim, not just when you sign up.</li>
+        </ul>
+        <p>For anyone looking for <Link href="/auto-insurance">auto insurance in Brentwood, CA,</Link> we are the top brokers for personalized service and smart coverage.</p>
+      </div>
+      <div id="Section-9">
+        <h2>Final Thoughts: Insurance That Actually Works for You</h2>
+        <p>There’s no one-size-fits-all when it comes to car insurance. Your needs may differ based on your car’s value, how often you drive, your risk tolerance, and your financial situation.</p>
+        <p>We make sure you don’t overpay—but also that you’re not underprotected. From legally required liability coverage to optional extras like rental car reimbursement, we guide you every step of the way.</p>
+        <p>If you’re unsure which types of coverage you need, or how much is enough, we’re here to help—no pressure, just real guidance.</p>
+      </div>
+    </>)
+  },
+  {
+    tableContent: [
+      { title: "The Basics: What the Law Requires" },
+      { title: "Optional (But Important) Coverages" },
+      { title: "Choosing the Right Limits" },
+      { title: "Life Situations That Affect Your Insurance Needs" },
+      { title: "Protecting Your Vehicle in Brentwood, CA" },
+      { title: "How to Review and Improve Your Policy" },
+      { title: "Final Thoughts: Insurance That Fits You" },
+    ],
+    tit: "What Car Insurance Coverage Do You Need in Brentwood?",
+    description:
+      "Learn which car insurance coverages are essential, optional, and smart to have. Make informed choices based on your needs, budget, and California laws.",
+    slug: "car-insurance-coverage-you-need-in-brentwood",
+    title: "What Car Insurance Coverage Do You Need in Brentwood?",
+    date: "31 July, 2025",
+    img: IMG08.src,
+    maintxt: (<>
+      <p>Car insurance isn’t just a legal requirement — it’s your financial safety net on the road. Whether you’re a daily commuter, a weekend road-tripper, or someone who simply drives to run errands, having the right car insurance coverage can protect you from high out-of-pocket costs, liability risks, and stressful financial surprises.</p>
+      <p>But with so many options and confusing policy terms, how do you know what coverage you actually need? Let’s break it down so you can make smart, confident choices.</p>
+      <div id="Section-1">
+        <h2>The Basics: What the Law Requires</h2>
+        <p>If you drive in California, you are required by law to carry a minimum level of auto insurance. As of January 1, 2025, the new minimum liability limits in California are:</p>
+        <ul>
+          <li>$30,000 for bodily injury liability per person</li>
+          <li>$60,000 for bodily injury liability per accident</li>
+          <li>$15,000 for property damage liability per accident</li>
+        </ul>
+        <p>These are known as liability coverage limits, and they exist to protect other people and property if you cause an accident. They do not cover your own injuries or car damage.</p>
+        <p>While these are the legal minimums, they are just that — minimums. In real-world accidents, medical costs and repairs can easily exceed these limits, leaving you to pay the rest out of pocket. So while these numbers are a starting point, they’re rarely enough on their own.</p>
+      </div>
+      <div id="Section-2">
+        <h2>Optional (But Important) Coverages</h2>
+        <p>Here’s where your actual protection starts to take shape. The following types of coverage are not legally required in California, but skipping them can leave major gaps in your protection.</p>
+        <h4>1. Collision Coverage</h4>
+        <p>This pays for damage to your car if you hit another vehicle or object, regardless of who is at fault. If your car is leased or financed, your lender probably requires this.</p>
+        <ul>
+          <li><strong>When it helps:</strong> Rear-ending someone, hitting a pole, or parking lot fender benders.</li>
+        </ul>
+        <h4>2. Comprehensive Coverage</h4>
+        <p>This covers damage to your car from non-collision events such as theft, vandalism, fire, hail, and natural disasters (like California wildfires).</p>
+        <ul>
+          <li><strong>When it helps:</strong> Your car gets broken into, stolen, or damaged by a falling tree or fire.</li>
+        </ul>
+        <h4>3. Uninsured/Underinsured Motorist Coverage (UM/UIM)</h4>
+        <p>Not everyone follows the law. If someone hits you and doesn’t have insurance — or doesn’t have enough — this covers your medical bills and, in some cases, car damage.</p>
+        <ul>
+          <li><strong>When it helps:</strong> A hit-and-run, or you’re hit by someone without enough insurance.</li>
+        </ul>
+        <h4>4. Medical Payments Coverage (MedPay)</h4>
+        <p>This pays for medical expenses for you and your passengers, no matter who caused the accident.</p>
+        <ul>
+          <li><strong>When it helps:</strong> Covering out-of-pocket medical costs like ambulance rides, X-rays, or rehab.</li>
+        </ul>
+        <h4>5. Rental Reimbursement</h4>
+        <p>Covers the cost of a rental car while your vehicle is in the shop after a covered loss.</p>
+        <ul>
+          <li><strong>When it helps:</strong>  Staying mobile after an accident.</li>
+        </ul>
+      </div>
+      <div id="Section-3">
+        <h2>Choosing the Right Limits</h2>
+        <p>How much coverage is “enough” depends on your budget, assets, and risk tolerance. If you own a home, have savings, or earn a good income, low liability limits could expose you to lawsuits or wage garnishment if you’re at fault in a serious accident.</p>
+        <h5>A general guideline:</h5>
+        <ul>
+          <li><strong>Liability Coverage:</strong> Aim for $100,000 per person / $300,000 per accident in bodily injury, and $50,000 in property damage, if possible.</li>
+          <li><strong>Collision and Comprehensive Deductible:</strong> Choose a deductible (usually $500–$1,000) that balances affordability and coverage.</li>
+          <li><strong>Uninsured Motorist:</strong> Match your liability limits if your budget allows.</li>
+        </ul>
+        <p>Remember: buying more coverage doesn’t mean you’re overspending — it means you’re avoiding far bigger costs in the future.</p>
+      </div>
+      <div id="Section-4">
+        <h2>Life Situations That Affect Your Insurance Needs</h2>
+        <p>Your car insurance coverage should evolve as your life changes. Here are some examples of when to revisit your policy:</p>
+        <ul>
+          <li>
+            <h6>You’re a new driver or have a teen driver</h6>
+            <p>Teens and new drivers are higher-risk, so carrying solid liability and collision coverage is smart. Consider adding roadside assistance and accident forgiveness if available.</p>
+          </li>
+          <li>
+            <h6>You drive an older car</h6>
+            <p>If your car isn’t worth much, you might consider dropping collision and comprehensive coverage — but be sure you could afford to replace the vehicle if it’s totaled.</p>
+          </li>
+          <li>
+            <h6>You use your vehicle for business or ridesharing</h6>
+            <p>Regular policies won’t cover you when you’re working — you’ll need commercial auto or rideshare insurance for full protection.</p>
+          </li>
+          <li>
+            <h6>You recently paid off your car loan</h6>
+            <p>Once your car is fully yours, you can reassess coverage levels and deductibles to fit your new budget.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="Section-5">
+        <h2>Protecting Your Vehicle in Brentwood, CA</h2>
+        <p>Driving in Brentwood means dealing with everything from freeway traffic to the occasional wildfire risk. That’s why local expertise matters.</p>
+        <p>We understand the unique challenges drivers face in this region. Whether you’re looking for basic protection or want to customize a policy with full coverage, we help you make informed choices, not rushed ones.</p>
+        <p>If you’re searching for <Link href="/auto-insurance">auto insurance in Brentwood CA,</Link> make sure your policy reflects both state legal requirements and real-world risks specific to California living.</p>
+        <p>We work with multiple carriers to help drivers in Brentwood find coverage that’s both reliable and affordable, without cutting corners.</p>
+      </div>
+      <div id="Section-6">
+        <h2>How to Review and Improve Your Policy</h2>
+        <p>Insurance shouldn’t be “set it and forget it.” Here’s how to stay ahead:</p>
+        <ul>
+          <li>
+            <h6>Review Your Policy Annually</h6>
+            <p>Life changes fast — make sure your insurance keeps up. Review your limits, deductibles, and listed drivers every 12 months.</p>
+          </li>
+          <li>
+            <h6>Ask for Discounts</h6>
+            <p>You might qualify for discounts based on your driving history, bundling policies, or even completing a defensive driving course.</p>
+          </li>
+          <li>
+            <h6>Compare, But Don’t Only Shop for Price</h6>
+            <p>Cheap insurance is tempting, but it often cuts key coverages. Look at the big picture — what you’re getting, not just what you’re paying.</p>
+          </li>
+          <li>
+            <h6>Work With an Independent Broke</h6>
+            <p>An independent broker (like Circadian) doesn’t push just one insurance brand — we shop across providers to find the best value for you.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="Section-7">
+        <h2>Final Thoughts: Insurance That Fits You</h2>
+        <p>The right car insurance isn’t about doing the bare minimum — it’s about getting the protection that fits your life, your car, and your future. Skimping now can cost you far more later. And overspending? That’s avoidable with the right guidance.</p>
+        <p>At Circadian Insurance, we help drivers in Brentwood and throughout California build smart, practical coverage that fits their unique needs. Whether you’re just meeting legal requirements or building a fully-loaded policy, we’re here to keep it simple, affordable, and stress-free.</p>
+        <p>Have questions about your current policy? Need help figuring out what coverages make sense? We’re ready when you are.</p>
+        <p><strong>Need help finding the right car insurance in Brentwood?</strong></p>
+        <p>Call us or request a free policy review today, and find out why more drivers are turning to Circadian Insurance for trusted <Link href="auto-insurance">Auto Insurance Brentwood CA.</Link></p>
+      </div>
+    </>)
+  },
+  {
+    tableContent: [
+      { title: "What Is a Declarations Page?" },
+      { title: "Why Is It Important?" },
+      { title: "What Information Appears on an Auto Insurance Declarations Page?" },
+      { title: "How to Use the4Declarations Page" },
+      { title: "Tips for Interpreting Your Declarations Page" },
+      { title: "Why Work With an Insurance Broker for Your Auto Coverage?" },
+      { title: "Final Thoughts" },
+    ],
+    tit: "What Is an Auto Insurance Declarations Page?",
+    description:
+      "Learn what an auto insurance declarations page is, what details it includes, and why it’s important for understanding your car insurance coverage.",
+    slug: "auto-insurance-declarations-page-explained",
+    title: "What Is an Auto Insurance Declarations Page?",
+    date: "31 July, 2025",
+    img: IMG09.src,
+    maintxt: (<>
+      <p>When you purchase an auto insurance policy, one of the first documents you’ll receive is the declarations page, often called the <strong>“dec page.”</strong> It’s easy to overlook this paperwork, especially when you’re focused on getting coverage set up quickly. But understanding this single-page summary can help you make smarter insurance decisions, catch errors early, and ensure you’re fully protected in the event of an accident.</p>
+      <div className="blogImage">
+        <Image src={Post9Image1.src} alt="The Basics: What the Law Requires" fill />
+      </div>
+      <p>In this blog, we’ll break down what an auto insurance declarations page is, why it matters, what information it includes, and how to use it effectively, whether you’re reviewing a new policy or renewing an old one.</p>
+      <div id="Section-1">
+        <h2>What Is a Declarations Page?</h2>
+        <div className="blogImage">
+          <Image src={Post9Image2.src} alt="The Basics: What the Law Requires" fill />
+        </div>
+        <p>The auto insurance declarations page is a summary of your insurance policy. It’s typically the first page of your policy package and includes the key details about:</p>
+        <ul>
+          <li>Who is insured </li>
+          <li>The insured vehicle(s) </li>
+          <li>Types of coverage purchased </li>
+          <li>Policy limits and deductibles </li>
+          <li>Premium costs </li>
+          <li>Policy duration </li>
+        </ul>
+        <p>Think of it as the “quick-glance” overview of everything that’s included in your coverage. While it’s not a replacement for reading the full policy, it’s the best place to verify that all the basics are accurate and that you’re getting what you paid for.</p>
+      </div>
+      <div id="Section-2">
+        <h2>Why Is It Important?</h2>
+        <p>The declarations page is important because it gives you:</p>
+        <ul>
+          <li><strong>Proof of Coverage:</strong> Some organizations (like lenders or rental car agencies) may require this document as evidence that you’re properly insured.</li>
+          <li><strong>Reference for Claims:</strong> If you’re in an accident or need to file a claim, the dec page helps you quickly see what’s covered and what your limits are.</li>
+          <li><strong>Verification Tool:</strong> Mistakes can happen during the quoting or binding process. Reviewing the declarations page lets you catch things like wrong VINs, misspelled names, or incorrect coverage levels before it’s too late.</li>
+          <li><strong>Comparison Shopping:</strong> When switching providers, the dec page makes it easy to compare your current coverage with quotes from other insurers.</li>
+        </ul>
+      </div>
+      <div id="Section-3">
+        <h2>What Information Appears on an Auto Insurance Declarations Page?</h2>
+        <p>Here’s a breakdown of what you’ll typically find on your dec page:</p>
+        <h6>1. Policyholder Information</h6>
+        <p>This section lists the name and address of the person or entity that owns the policy. If multiple people are covered, their names may also appear.</p>
+        <h6>2. Policy Number and Term</h6>
+        <p>You’ll see the policy number, start and end dates of coverage, and the name of the issuing insurance company.</p>
+        <h6>3. Vehicle Information</h6>
+        <p>Every vehicle covered under the policy will be listed here, including:</p>
+        <ul>
+          <li>Year, make, and model</li>
+          <li>VIN (Vehicle Identification Number)</li>
+          <li>Garaging location</li>
+        </ul>
+        <h6>4. Coverages and Limits</h6>
+        <p>This is one of the most critical sections. It shows the types of coverage you have and the associated limits and deductibles. Common line items include:</p>
+        <ul>
+          <li><strong>Bodily Injury Liability</strong></li>
+          <li><strong>Property Damage Liability</strong></li>
+          <li><strong>Collision</strong></li>
+          <li><strong>Comprehensive</strong></li>
+          <li><strong>Uninsured/Underinsured Motorist</strong></li>
+          <li><strong>Medical Payments or Personal Injury Protection (PIP)</strong></li>
+        </ul>
+        <p>For drivers in California, this is where you’d verify that your coverage meets or exceeds the state’s minimum requirements. As of January 1, 2025, California requires:</p>
+        <ul>
+          <li><strong>$30,000</strong>  for bodily injury liability per person</li>
+          <li><strong>$60,000</strong>  for bodily injury liability per accident</li>
+          <li><strong>$15,000</strong>  for property damage liability per accident</li>
+        </ul>
+        <p>Circadian Insurance always ensures clients in Auto Insurance Brentwood CA and throughout California stay compliant with the most current regulations.</p>
+        <h6>5. Premium Breakdown</h6>
+        <p>This section tells you what you’re paying for each type of coverage and for each insured vehicle. It may also include fees or discounts (like good driver, multi-policy, or anti-theft device savings).</p>
+        <h6>6. Lienholder or Additional Interests</h6>
+        <p>If your car is financed or leased, the lender will be listed here. They have a financial interest in the vehicle and must be named on your policy.</p>
+      </div>
+      <div id="Section-4">
+        <h2>How to Use the4Declarations Page</h2>
+        <p>Even if you’ve never paid much attention to your declarations page before, here are a few reasons to give it a closer look:</p>
+        <h6>When Reviewing a New Policy</h6>
+        <p>Double-check that all personal details, vehicle information, and coverage selections are accurate. Look for:</p>
+        <ul>
+          <li>Correct spelling of names</li>
+          <li>Accurate VINs</li>
+          <li>Desired deductibles</li>
+          <li>Proper liability limits (especially if you’re opting for higher-than-minimum coverage)</li>
+        </ul>
+        <h6>When Making a Claim</h6>
+        <p>Before contacting your insurer, review the declarations page to understand your coverage. Knowing your limits and deductibles ahead of time can help manage expectations and speed up the process.</p>
+        <h6>When Changing Coverage</h6>
+        <p>If you’re working with a broker like Circadian Insurance to adjust your policy, the declarations page can serve as a reference point for what you currently have and what might need to change.</p>
+      </div>
+      <div id="Section-5">
+        <h2>Tips for Interpreting Your Declarations Page</h2>
+        <p>Here are a few tips to make the most of this document:</p>
+        <ul>
+          <li><strong>Keep It Handy:</strong> Save a digital and physical copy. Some states require proof of insurance in your car, and while the dec page isn’t the same as an ID card, it can be useful in emergencies.</li>
+          <li><strong>Don’t Confuse It With the Full Policy:</strong> The declarations page summarizes your coverage. If you need detailed explanations, refer to the full policy or speak with your broker.</li>
+          <li><strong>Use It to Spot Gaps:</strong> If you’re unsure whether you’re fully covered, the dec page can highlight missing coverage, like uninsured motorist or comprehensive.</li>
+        </ul>
+      </div>
+      <div id="Section-6">
+        <h2>Why Work With an Insurance Broker for Your Auto Coverage?</h2>
+        <p>Understanding your declarations page is easier when you work with someone who explains it clearly. That’s where we come in.</p>
+        <p>Serving the community with <Link href="/auto-insurance">Auto Insurance Brentwood CA</Link> and beyond, Circadian Insurance helps individuals and businesses find the right protection without the hassle. Instead of guessing what you need or overpaying for unnecessary add-ons, our team helps you:</p>
+        <ul>
+          <li>Compare multiple carriers quickly</li>
+          <li>Understand policy terms in plain English</li>
+          <li>Make confident, informed decisions</li>
+          <li>Stay compliant with state laws (like California’s new 2025 limits)</li>
+          <li> Get fast service when you need help updating, renewing, or filing claims</li >
+        </ul>
+      </div>
+      <div id="Section-7">
+        <h2>Final Thoughts</h2>
+        <p>The auto insurance declarations page may seem like fine print, but it’s one of the most important documents tied to your coverage. It gives you a snapshot of your protections and is the first place to look when questions arise about your policy.</p>
+        <p>Whether you’re a new driver or someone reviewing their insurance mid-year, take five minutes to review your declarations page. If anything looks off or if you’re unsure about your limits and deductibles, contact your broker for clarification.</p>
+        <p>And if you’re looking for <Link href="/auto-insurance">Auto Insurance in Brentwood, CA,</Link> Circadian Insurance is here to help. Our personalized, no-pressure service ensures you always understand your coverage and never feel lost in the process.</p>
+      </div>
+    </>)
+  },
+  {
+    tableContent: [
+      { title: "The Basics of Comprehensive Car Insurance" },
+      { title: "What Does Comprehensive Insurance Cover?" },
+      { title: "What’s Not Covered?" },
+      { title: "Comprehensive vs. Collision Insurance: What’s the Difference?" },
+      { title: "Why Consider Comprehensive Insurance in California?" },
+      { title: "Real-World Example: When Comprehensive Coverage Saves the Day" },
+      { title: "How Much Does Comprehensive Insurance Cost?" },
+      { title: "Do You Need Comprehensive Insurance?" },
+      { title: "Final Thoughts" },
+    ],
+    tit: "Comprehensive Car Insurance: What It Covers & Why It Matters",
+    description:
+      "Learn what comprehensive car insurance covers, how it differs from collision coverage, and why it’s essential for drivers in California.",
+    slug: "comprehensive-car-insurance-and-its-coverage-explained",
+    title: "What is Comprehensive Car Insurance Coverage, And What Does It Cover?",
+    date: "31 July, 2025",
+    img: IMG10.src,
+    maintxt: (<>
+      <p>When people think of car insurance, they often picture the coverage that kicks in after an accident with another vehicle. But what about the unexpected things, like a tree branch falling on your car, or your vehicle getting stolen from your driveway? That’s where comprehensive car insurance comes into play.</p>
+      <p>This type of coverage is often misunderstood, overlooked, or seen as optional — until something happens. In this article, we’ll break down exactly what comprehensive car insurance is, what it covers, how it compares to other types of auto insurance, and why it might be essential for drivers in California, including those looking for <Link href="/auto-insurance">auto insurance in Brentwood CA.</Link></p>
+      <div className="blogImage">
+        <Image src={Post9Image1.src} alt="The Basics: What the Law Requires" fill />
+      </div>
+      <p>In this blog, we’ll break down what an auto insurance declarations page is, why it matters, what information it includes, and how to use it effectively, whether you’re reviewing a new policy or renewing an old one.</p>
+      <div id="Section-1">
+        <h2>The Basics of Comprehensive Car Insurance </h2>
+        <p>Comprehensive insurance, often called “other-than-collision” coverage, protects you from damage to your car that isn’t the result of a crash with another vehicle. It’s a non-collision protection policy that typically covers a wide range of scenarios, including theft, vandalism, fire, natural disasters, falling objects, and animal damage.</p>
+        <p>It’s important to note: comprehensive insurance covers your vehicle, not injuries or damages to others. And it’s not legally required by the state, but if you’re financing or leasing your car, your lender will almost certainly require it.</p>
+      </div>
+      <div id="Section-2">
+        <h2>What Does Comprehensive Insurance Cover?</h2>
+        <p>Here’s a more detailed breakdown of what’s typically covered under a comprehensive policy:</p>
+        <h6>1. Theft</h6>
+        <p>If your car is stolen, comprehensive insurance helps reimburse you for its value (minus your deductible). It also covers damage from a break-in — such as broken windows or damaged locks — even if the car wasn’t successfully stolen.</p>
+        <h6>2. Vandalism</h6>
+        <p>Whether it’s graffiti, slashed tires, or a broken windshield, acts of vandalism fall under comprehensive coverage. This is especially valuable if your vehicle is parked outdoors regularly.</p>
+        <h6>3. Weather and Natural Disasters</h6>
+        <p>This includes:</p>
+        <ul>
+          <li>Hailstorms</li>
+          <li>Wind damage</li>
+          <li>Floods</li>
+          <li>Earthquakes</li>
+          <li>Hurricanes</li>
+          <li>Wildfires (especially relevant in California)
+          </li>
+        </ul>
+        <p>Given the increasing number of climate-related incidents across the state, this is one of the top reasons many Californians add comprehensive coverage to their auto policy.</p>
+        <h6>4. Fire</h6>
+        <p>Comprehensive insurance typically covers vehicle fires, whether caused by an electrical failure, engine issue, or an external source like a wildfire.</p>
+        <h6>5. Falling Objects</h6>
+        <p>That means anything from tree branches to construction debris. If a storm knocks a limb onto your hood, comprehensive insurance covers the repair.</p>
+        <h6>6. Animal Collisions</h6>
+        <p>If you hit a deer or another animal, the damage to your car is covered under comprehensive — not collision — insurance. Animal-related claims are more common than you might think, especially in rural or semi-rural parts of California.</p>
+        <h6>7. Glass and Windshield Damage</h6>
+        <p>Many policies include — or offer optional — glass coverage under comprehensive. This is especially handy for those annoying but common cracked windshields from rocks on the highway.</p>
+      </div>
+      <div id="Section-3">
+        <h2>What’s Not Covered?</h2>
+        <p>Comprehensive coverage is extensive, but it doesn’t cover everything. Here are a few exclusions:</p>
+        <ul>
+          <li>Damage to another vehicle or person (that’s liability coverage)  </li>
+          <li>Damage from a collision with another car (that’s collision coverage)  </li>
+          <li>Mechanical failure or wear and tear  </li>
+          <li>Items stolen from inside the car (your homeowners or renters’ insurance may cover that)  </li>
+        </ul>
+        <p>It’s also important to note that comprehensive coverage is subject to a deductible — the amount you pay out-of-pocket before your insurance kicks in. Typical deductibles range from <strong>$250</strong> to <strong>$1,000.</strong></p>
+      </div>
+      <div id="Section-4">
+        <h2>Comprehensive vs. Collision Insurance: What’s the Difference?</h2>
+        <p>Many people confuse comprehensive and collision coverage. Both are types of physical damage insurance for your car, but they cover different scenarios.</p>
+        <div className="table-responsive">
+          <table className="table table-bordered table-striped">
+            <thead>
+              <tr align="center">
+                <th>Coverage Type</th>
+                <th>What It Covers</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Comprehensive</td>
+                <td>Theft, fire, natural disasters, vandalism, animal damage, and falling objects</td>
+              </tr>
+              <tr>
+                <td>Collision</td>
+                <td>Crashes with other vehicles or stationary objects (e.g., guardrails, trees)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>If you want full protection for your car, you’ll need both. These two coverages, along with liability insurance, form what’s commonly known as <strong>"full coverage."</strong></p>
+      </div>
+      <div id="Section-5">
+        <h2>Why Consider Comprehensive Insurance in California?</h2>
+        <p>If you’re in California — especially in areas like Brentwood, where weather extremes and wildfires are a real concern — comprehensive insurance provides peace of mind.</p>
+        <p>California’s climate risks are intensifying. The state sees some of the highest wildfire activity in the nation, and urban areas face rising rates of vehicle break-ins. All of these factors increase your exposure to non-collision vehicle damage.</p>
+        <p>That’s why drivers looking for <Link href="/auto-insurance">auto insurance in Brentwood CA</Link>, are increasingly choosing to include comprehensive coverage in their policies. It’s not just a smart move — it’s a protective buffer against the kinds of incidents that are becoming more common across the state.</p>
+      </div>
+      <div id="Section-6">
+        <h2>Real-World Example: When Comprehensive Coverage Saves the Day</h2>
+        <p>Imagine you wake up one morning to find your car’s rear window smashed and the dashboard torn apart from a failed theft attempt. The thief didn’t steal the car, but they caused thousands in damage.</p>
+        <p>Without comprehensive insurance? You’re covering it out of pocket.</p>
+        <p>With it? You file a claim, pay your deductible, and let your insurance handle the rest.</p>
+        <p>Now, imagine the same thing happens, but instead of vandalism, it’s a fire during a heat wave or a flood from a sudden rainstorm. Comprehensive still steps in to save you.</p>
+      </div>
+      <div id="Section-7">
+        <h2>How Much Does Comprehensive Insurance Cost?</h2>
+        <p>Comprehensive coverage is surprisingly affordable. According to national averages, adding comprehensively to your policy costs less than a dollar a day. Of course, premiums vary based on:</p>
+        <ul>
+          <li>Vehicle make and model</li>
+          <li>Your location</li>
+          <li>Claims history</li>
+          <li>Your deductible choice</li>
+        </ul>
+        <p>If you’re shopping for auto insurance in Brentwood, CA, it’s worth speaking with a local insurance broker like Circadian Insurance Brokers, who can shop multiple carriers and find you the most cost-effective policy tailored to your needs, with or without comprehensive coverage.</p>
+      </div>
+      <div id="Section-8">
+        <h2>Do You Need Comprehensive Insurance?</h2>
+        <p>While it’s not required by law in California, here are a few reasons you should consider it:</p>
+        <ul>
+          <li>You lease or finance your car (your lender will likely require it)  </li>
+          <li>You live in an area prone to wildfire, flood, or vandalism  </li>
+          <li>You park your car outside or in public spaces regularly  </li>
+          <li>You simply want peace of mind that your vehicle is protected from the unexpected  </li>
+        </ul>
+        <p>Think of comprehensive insurance as a safety net — it’s not about how likely something is to happen, it’s about how expensive it could be if it did.</p>
+      </div>
+      <div id="Section-9">
+        <h2>Final Thoughts</h2>
+        <p>Comprehensive car insurance doesn’t just fill the gaps — it protects you from the random, the rare, and the regrettable. From fallen tree limbs to fire, theft to natural disasters, this coverage gives you peace of mind when life throws the unexpected your way.</p>
+        <p>If you’re evaluating your coverage or shopping for <Link href="/auto-insurance">auto insurance in Brentwood CA,</Link> reach out to a team that understands your risks and your priorities. We bring decades of experience and a deep understanding of California’s insurance landscape. They won’t just sell you a policy — they’ll make sure it’s the right one.</p>
+      </div>
+    </>)
+  },
+  {
+    tableContent: [
+      { title: "Liability Car Insurance: The Basic" },
+      { title: "California’s Minimum Liability Limits (Effective January 1, 2025)" },
+      { title: "What Liability Insurance Actually Pays For" },
+      { title: "What Liability Insurance Doesn’t Cover" },
+      { title: "Why Having Just the Minimum Isn’t Always Enough" },
+      { title: "Real-World Examples of Liability Insurance in Action" },
+      { title: "What Influences Your Liability Insurance Rates?" },
+      { title: "How to Choose the Right Liability Coverage" },
+      { title: "Liability Insurance and Auto Loans" },
+    ],
+    tit: "What is Liability Car Insurance and What Does It Cover?",
+    description:
+      "Learn what liability car insurance is, what it covers, and why it’s essential for California drivers. Get informed before choosing your auto insurance coverage.",
+    slug: "what-is-liability-car-insurance-and-what-does-it-cover",
+    title: "What is Liability Car Insurance & What Does It Cover?",
+    date: "31 July, 2025",
+    img: IMG11.src,
+    maintxt: (<>
+      <p>When you get behind the wheel, you’re not just responsible for your own safety — you’re also financially responsible for what happens to others if you cause an accident. That’s where liability car insurance comes in.</p>
+      <p>It’s one of the most essential — and legally required — types of car insurance, especially here in California. But what exactly does it cover? How does it protect you? And how much do you need?</p>
+      <p>Let’s break it all down.</p>
+      <div id="Section-1">
+        <h2>Liability Car Insurance: The Basics</h2>
+        <p>Liability car insurance covers the cost of injuries and property damage that you cause to other people in a car accident where you are at fault. It doesn’t cover damage to your own car or injuries to you — it strictly covers others.</p>
+        <p>Think of it as the foundation of your car insurance policy. Without it, you’re financially exposed if something goes wrong on the road.</p>
+        <p>There are two primary components:</p>
+        <ul>
+          <li>
+            <h6>Bodily Injury Liability (BI)</h6>
+            <p>This pays for the medical expenses, lost wages, and legal fees of other people if they are injured in an accident you cause.</p>
+          </li>
+          <li>
+            <h6>Property Damage Liability (PD)</h6>
+            <p>This covers repair or replacement costs for another person’s vehicle or property (like a fence or building) if you damage it with your car.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="Section-2">
+        <h2>California’s Minimum Liability Limits (Effective January 1, 2025)</h2>
+        <p>If you’re in California, you are legally required to carry a minimum level of liability insurance. As of <strong>January 1, 2025,</strong> those limits are:</p>
+        <ul>
+          <li><strong>$30,000</strong> for bodily injury per person</li>
+          <li><strong>$60,000</strong> for bodily injury per accident</li>
+          <li><strong>$15,000</strong> for property damage per accident</li>
+        </ul>
+        <p>These are often referred to as <strong>30/60/15</strong> limits.</p>
+        <h4>Why the Change?</h4>
+        <p>Previously, the required limits were significantly lower. The new law reflects rising medical costs, vehicle repair prices, and the real-world financial impact of car accidents. We’re helping drivers across the state adjust their policies to meet or exceed these new minimums, especially in Brentwood, CA, where coverage expectations and risk factors are evolving.</p>
+      </div>
+      <div id="Section-3">
+        <h2>What Liability Insurance Actually Pays For</h2>
+        <p>Let’s say you rear-end another vehicle at a red light. The driver suffers a neck injury, and their car needs $8,000 in repairs. Here’s how your liability coverage might work:</p>
+        <ul>
+          <li><strong>Medical Bills:</strong> Your bodily injury liability would cover their emergency room visit, physical therapy, and lost wages if they can’t work for a few days.</li>
+          <li><strong>Vehicle Damage:</strong> Your property damage liability would pay for repairing or replacing their car.</li>
+        </ul>
+        <p>If their total costs stay within your policy limits, your insurer takes care of it. If not, you could be personally on the hook for the difference, which is why many drivers choose limits higher than the minimum.</p>
+      </div>
+      <div id="Section-4">
+        <h2>What Liability Insurance Doesn’t Cover</h2>
+        <p>While liability insurance is critical, it’s also limited in scope. Here’s what it won’t cover:</p>
+        <ul>
+          <li><strong>Damage to your own car</strong></li>
+          <li><strong>Medical bills for you or your passengers</strong></li>
+          <li><strong>Theft or vandalism</strong></li>
+          <li><strong>Weather-related damage</strong></li>
+          <li><strong>Uninsured drivers who hit you</strong></li>
+        </ul>
+        <p>To fill those gaps, you’d need other types of coverage like collision, comprehensive, uninsured motorist, or medical payments coverage.</p>
+      </div>
+      <div id="Section-5">
+        <h2>Why Having Just the Minimum Isn’t Always Enough</h2>
+        <p>Let’s return to our earlier accident example. Imagine that the driver you injured needs surgery, costing $50,000, and their car is a new SUV valued at $45,000. Suddenly, your 30/60/15 limits aren’t nearly enough.</p>
+        <p>You’d be personally liable for the difference, which could mean wage garnishment, lawsuits, or financial hardship.</p>
+        <p>That’s why many drivers — especially those with homes, savings, or other assets — choose higher liability limits or even add an umbrella insurance policy for extra protection. Circadian Insurance works with Brentwood drivers every day to design coverage that fits their lifestyle, not just the legal minimums.</p>
+      </div>
+      <div id="Section-6">
+        <h2>Real-World Examples of Liability Insurance in Action</h2>
+        <h4>Scenario 1: Multi-Car Collision</h4>
+        <p>You’re found at fault in a three-car pileup on a rainy day. Several people are injured, and multiple cars are damaged. Your bodily injury liability covers hospital bills for the injured parties, while your property damage liability pays for the cars, up to your limits.</p>
+        <h4>Scenario 2: Damage to Property</h4>
+        <p>You accidentally swerve and hit a mailbox and a garden wall. Property damage liability pays to repair or replace them, avoiding out-of-pocket costs or civil claims from the homeowner.</p>
+        <p>These situations aren’t rare. They happen every day, especially in congested areas. If you’re looking for <Link href="/auto-insurance">auto insurance in Brentwood CA,</Link> it’s essential to make sure your liability coverage is equipped to handle real-world risks.</p>
+      </div>
+      <div id="Section-7">
+        <h2>What Influences Your Liability Insurance Rates?</h2>
+        <p>Several factors affect how much you’ll pay for liability car insurance, including:</p>
+        <ul>
+          <li>
+            <h6>Driving record</h6>
+            <p>Clean records typically mean lower rates.</p>
+          </li>
+          <li>
+            <h6>Location</h6>
+            <p>Urban areas like Brentwood may have higher premiums due to traffic and accident frequency.</p>
+          </li>
+          <li>
+            <h6>Vehicle type</h6>
+            <p>High-performance or luxury vehicles might increase your rates.</p>
+          </li>
+          <li>
+            <h6>Coverage limits</h6>
+            <p>The higher the limit, the more you pay — but you also get greater protection.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="Section-8">
+        <h2>How to Choose the Right Liability Coverage</h2>
+        <p>Here’s a quick guide to help you decide how much liability coverage you need:</p>
+        <ul>
+          <li>
+            <h6>If you’re just meeting legal requirements:</h6>
+            <p>Choose 30/60/15 — the California minimum. It’s budget-friendly but basic.</p>
+          </li>
+          <li>
+            <h6>If you want broader protection:</h6>
+            <p>Consider 100/300/100 or more. It may cost a bit more, but it offers peace of mind.</p>
+          </li>
+          <li>
+            <h6>If you have significant assets or family responsibilities:</h6>
+            <p>Pair high liability limits with an umbrella policy for extended coverage.</p>
+          </li>
+        </ul>
+        <p>We tailor each policy to your needs. Whether you’re a young driver in your first car or a seasoned homeowner managing multiple policies, we help you build smart coverage from the ground up.</p>
+      </div>
+      <div id="Section-9">
+        <h2>Liability Insurance and Auto Loans</h2>
+        <p>If you’re financing or leasing your vehicle, your lender may require more than just liability insurance. In most cases, they’ll also mandate collision and comprehensive coverage to protect the car itself. Even if it’s not required, combining coverage types often leads to bundled discounts and better protection overall.</p>
+      </div>
+      <div>
+        <h2>Wrapping Up: Liability Insurance Is Just the Start</h2>
+        <p>Liability car insurance is essential — not just because the law says so, but because accidents can happen in an instant. And the financial fallout can be severe.</p>
+        <p>With updated laws in California, it’s the perfect time to review your coverage and make sure it still fits your life. We help drivers in Brentwood and across California stay protected without overpaying. We explain your options clearly and find policies that give you peace of mind, not surprises.</p>
+        <h4>Need Help Understanding Your Auto Insurance?</h4>
+        <p>Whether you’re renewing your policy or getting insured for the first time, we’re here to help. We offer honest guidance, flexible plans, and responsive service — all from people who live and work right here in Brentwood, CA.</p>
       </div>
     </>)
   },

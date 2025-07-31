@@ -10,6 +10,12 @@ import IMG03 from "media/blogs/posts/blog03.webp"
 import IMG04 from "media/blogs/posts/blog04.webp"
 import IMG05 from "media/blogs/posts/blog05.webp"
 import IMG06 from "media/blogs/posts/blog06.webp"
+import IMG07 from "media/blogs/posts/blog07.webp"
+import IMG08 from "media/blogs/posts/blog08.webp"
+import IMG09 from "media/blogs/posts/blog09.webp"
+import IMG10 from "media/blogs/posts/blog10.webp"
+import IMG11 from "media/blogs/posts/blog11.webp"
+
 
 
 
@@ -18,6 +24,46 @@ export const BlgosData = {
     title: "Our Recent Blogs",
     desc: "Every book has a story, and every author has a unique journey. Our blog is your go-to resource for expert insights on publishing, marketing, and writing success.",
     BlogsData: [
+        {
+            title: "What is Liability Car Insurance & What Does It Cover?",
+            date: "31 July, 2025",
+            txt: "When you get behind the wheel, you’re not just responsible for your own safety — you’re also financially responsible for what happens to others if you cause an accident. That’s where liability car insurance comes in.",
+            category: "Auto Insurance",
+            img: IMG11.src,
+            link: "/what-is-liability-car-insurance-and-what-does-it-cover",
+        },
+        {
+            title: "What is Comprehensive Car Insurance Coverage, And What Does It Cover?",
+            date: "31 July, 2025",
+            txt: "When people think of car insurance, they often picture the coverage that kicks in after an accident with another vehicle. But what about the unexpected things, like a tree branch falling on your car, ",
+            category: "Auto Insurance",
+            img: IMG10.src,
+            link: "/comprehensive-car-insurance-and-its-coverage-explained",
+        },
+        {
+            title: "What Is an Auto Insurance Declarations Page?",
+            date: "31 July, 2025",
+            txt: "When you purchase an auto insurance policy, one of the first documents you’ll receive is the declarations page, often called the “dec page.” It's easy to overlook this paperwork,",
+            category: "Auto Insurance",
+            img: IMG09.src,
+            link: "/auto-insurance-declarations-page-explained",
+        },
+        {
+            title: "What Car Insurance Coverage Do You Need in Brentwood?",
+            date: "31 July, 2025",
+            txt: "Car insurance isn't just a legal requirement — it’s your financial safety net on the road. Whether you're a daily commuter, a weekend road-tripper, or someone who simply drives to run errands,",
+            category: "Auto Insurance",
+            img: IMG08.src,
+            link: "/car-insurance-coverage-you-need-in-brentwood",
+        },
+        {
+            title: "Six Types of Car Insurance Coverages Offered by Circadian Brokers",
+            date: "31 July, 2025",
+            txt: "Car insurance is not just about fulfilling legal requirements—it’s about protecting your future. Whether you're commuting daily, running errands around town, or heading out for a road trip, the right ",
+            category: "Auto Insurance",
+            img: IMG07.src,
+            link: "/6-car-insurance-coverages-types-offered-by-circadian-brokers",
+        },
         {
             title: "What Is an Auto Insurance Premium and How Is It Calculated?",
             date: "15 July, 2025",

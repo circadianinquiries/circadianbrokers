@@ -12,7 +12,7 @@ export const metadata = {
     images: "#",
   },
   //===== Canonical =====
-  alternates: { canonical: "/product" },
+  alternates: { canonical: "/auto-insurance" },
 
 };
 
