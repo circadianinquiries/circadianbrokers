@@ -16,7 +16,7 @@ const truncateWords = (text, wordLimit = 20) => {
 const Blogs = ({ data, blogPage }) => {
 
     return (
-        <section className={`pt-100 ${styles.blogsSection}`}>
+        <section className={`p-100 ${styles.blogsSection}`}>
             <Container>
                 <Row>
                     <Col md={7}>
