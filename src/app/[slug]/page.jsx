@@ -27,20 +27,20 @@ export async function generateMetadata({ params }) {
         openGraph: {
             title: blog.tit,
             description: blog.description,
-            url: `https://www.bookwriting.us/${blog.slug}`,
+            url: `https://www.circadianbrokers.com/${blog.slug}`,
             siteName: "Book Writing",
             locale: "en_US",
             type: "article",
-            images: ["https://www.bookwriting.us/logo.png"],
+            images: ["https://www.circadianbrokers.com/logo.webp"],
         },
         twitter: {
             card: "summary_large_image",
             title: blog.tit,
             description: blog.description,
-            images: ["https://www.bookwriting.us/logo.png"],
+            images: ["https://www.circadianbrokers.com/logo.webp"],
         },
         alternates: {
-            canonical: `https://www.bookwriting.us/${blog.slug}`,
+            canonical: `https://www.circadianbrokers.com/${blog.slug}`,
         },
     };
 }

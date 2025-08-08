@@ -4,14 +4,14 @@ export const metadata = {
     openGraph: {
         title: "Blog - Book Writing",
         description: "Explore expert blogs from Book Writing team.",
-        url: "https://www.bookwriting.us/blog",
+        url: "https://www.circadianbrokers.com/blog",
         siteName: "Book Writing",
         locale: "en_US",
         type: "website",
-        images: ["https://www.bookwriting.us/logo.png"],
+        images: ["https://www.circadianbrokers.com/logo.webp"],
     },
     alternates: {
-        canonical: "https://www.bookwriting.us/blog",
+        canonical: "https://www.circadianbrokers.com/blog",
     },
 
 };

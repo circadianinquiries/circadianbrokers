@@ -9,7 +9,7 @@ export const metadata = {
     siteName: " Circadian Insurance Brokers",
     locale: "en_US",
     type: "website",
-    images: "#",
+    images: "https://www.circadianbrokers.com/logo.webp",
   },
   //===== Canonical =====
   alternates: { canonical: "/products" },
