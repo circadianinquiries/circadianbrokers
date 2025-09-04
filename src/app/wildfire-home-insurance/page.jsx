@@ -10,8 +10,8 @@ import { TestimonialData } from "@/src/app/products/data/data";
 const Page = () => {
   return (
     <>
-      <Banner data={BannerData} FromLink={true} />
-      <Broker data={BrokerData} FromLink={true} />
+      <Banner data={BannerData} />
+      <Broker data={BrokerData} />
       <SimpleContent data={SimpleData} />
       <BlueContentSection data={BlueContentData} />
       <Testimonial data={TestimonialData} bgColor={true} />
