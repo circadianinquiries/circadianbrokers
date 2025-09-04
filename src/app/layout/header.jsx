@@ -12,7 +12,7 @@ const Header = () => {
     const [isActive, setIsActive] = useState(false);
     const pathname = usePathname();
     const customQuotePaths = [
-        "/homeowner-insurance",
+        // "/homeowner-insurance",
         "/wildfire-home-insurance",
         "/condo-insurance",
         "/home-insurance-quote-antioch-ca",
