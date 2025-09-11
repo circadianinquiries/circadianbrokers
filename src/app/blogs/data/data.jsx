@@ -15,6 +15,16 @@ import IMG08 from "media/blogs/posts/blog08.webp"
 import IMG09 from "media/blogs/posts/blog09.webp"
 import IMG10 from "media/blogs/posts/blog10.webp"
 import IMG11 from "media/blogs/posts/blog11.webp"
+import IMG12 from "media/blogs/posts/blog12.webp"
+import IMG13 from "media/blogs/posts/blog13.webp"
+import IMG14 from "media/blogs/posts/blog14.webp"
+import IMG15 from "media/blogs/posts/blog15.webp"
+import IMG16 from "media/blogs/posts/blog16.webp"
+import IMG17 from "media/blogs/posts/blog17.webp"
+import IMG18 from "media/blogs/posts/blog18.webp"
+import IMG19 from "media/blogs/posts/blog19.webp"
+import IMG20 from "media/blogs/posts/blog20.webp"
+import IMG21 from "media/blogs/posts/blog21.webp"
 
 
 
@@ -29,7 +39,7 @@ export const BlgosData = {
             date: "26 Aug, 2025",
             txt: "No one plans for a car accident. But when it happens, knowing exactly what to do in those first few moments—and in the days that follow—can protect your health, your rights, and your finances.",
             category: "Auto Insurance",
-            img: IMG11.src,
+            img: IMG21.src,
             link: "/exact-steps-to-take-after-a-car-accident-to-stay-safe",
         },
         {
@@ -37,7 +47,7 @@ export const BlgosData = {
             date: "26 Aug, 2025",
             txt: "Car insurance isn’t just a legal requirement in Brentwood, California — it’s your frontline defense against financial hardship after an accident.",
             category: "Auto Insurance",
-            img: IMG11.src,
+            img: IMG20.src,
             link: "/brentwood-car-insurance-policies-explained",
         },
         {
@@ -45,7 +55,7 @@ export const BlgosData = {
             date: "26 Aug, 2025",
             txt: "When most people think about what affects their auto insurance premiums, they picture their driving record, the type of vehicle they own, or how many miles they drive each year.",
             category: "Auto Insurance",
-            img: IMG11.src,
+            img: IMG19.src,
             link: "/impact-of-road-safety-on-your-auto-insurance-rates-in-brentwood",
         },
         {
@@ -53,7 +63,7 @@ export const BlgosData = {
             date: "26 Aug, 2025",
             txt: "Accidents happen — even in a peaceful place like Brentwood, CA. Whether it’s a minor fender-bender or a serious collision, knowing how to navigate the car insurance",
             category: "Auto Insurance",
-            img: IMG11.src,
+            img: IMG18.src,
             link: "/step-by-step-car-insurance-claims-process-in-brentwood",
         },
         {
@@ -61,7 +71,7 @@ export const BlgosData = {
             date: "26 Aug, 2025",
             txt: "If you're shopping for auto insurance in Brentwood, CA, you’ve probably come across the terms stacked and unstacked car insurance.",
             category: "Auto Insurance",
-            img: IMG11.src,
+            img: IMG17.src,
             link: "/stacked-vs-unstacked-car-insurance",
         },
         {
@@ -69,7 +79,7 @@ export const BlgosData = {
             date: "26 Aug, 2025",
             txt: "It’s a frustrating situation no one wants to deal with: you walk out to your car, and there it is — scraped, dented, or worse — and the person responsible is nowhere in sight. ",
             category: "Auto Insurance",
-            img: IMG11.src,
+            img: IMG16.src,
             link: "/here-is-what-to-do-when-someone-hit-your-parked-car",
         },
         {
@@ -77,7 +87,7 @@ export const BlgosData = {
             date: "26 Aug, 2025",
             txt: "When it comes to auto insurance in Brentwood, CA, most drivers focus on getting a policy that meets legal requirements and protects them in the event of an accident. But what if your policy could also save you hundreds of dollars a year—without sacrificing coverage?",
             category: "Auto Insurance",
-            img: IMG11.src,
+            img: IMG15.src,
             link: "/maximizing-your-savings-with-brentwood-auto-insurance-discounts",
         },
         {
@@ -85,7 +95,7 @@ export const BlgosData = {
             date: "26 Aug, 2025",
             txt: "If you’ve ever handed your car keys to a friend or borrowed a relative’s car for a quick errand, you may have asked yourself a crucial question: “Does auto insurance follow the car or the driver?” The answer can be more complicated than a simple yes or no.",
             category: "Auto Insurance",
-            img: IMG11.src,
+            img: IMG14.src,
             link: "/how-does-auto-insurance-follow-the-car-or-the-driver",
         },
         {
@@ -93,7 +103,7 @@ export const BlgosData = {
             date: "26 Aug, 2025",
             txt: "If you’re shopping for auto insurance in Brentwood, CA, you’re not short on choices. But having options doesn’t mean the decision is easy — especially when it feels like every provider promises “the best coverage at the lowest rate.” So how do you cut through the noise?",
             category: "Auto Insurance",
-            img: IMG11.src,
+            img: IMG13.src,
             link: "/choosing-the-best-auto-insurance-in-brentwood",
         },
         {
@@ -101,7 +111,7 @@ export const BlgosData = {
             date: "26 Aug, 2025",
             txt: "Filing an auto insurance claim can feel overwhelming — especially in the moments after an accident. Whether you're dealing with a fender bender in downtown Brentwood or a more serious collision on Highway 4, knowing what to expect can ease your stress and speed up the process.",
             category: "Auto Insurance",
-            img: IMG11.src,
+            img: IMG12.src,
             link: "/7-things-to-expect-when-you-file-an-auto-insurance-claim",
         },
         {
