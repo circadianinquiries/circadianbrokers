@@ -3,6 +3,8 @@
   background-position: 115% 100%;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: -1;
+  position: relative;
   .bannerTxt {
     padding-right: 100px;
     padding-top: 180px;

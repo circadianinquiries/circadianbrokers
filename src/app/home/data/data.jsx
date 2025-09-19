@@ -1,5 +1,5 @@
 //Banner
-import BannerPoster from "media/home/bannerImage.webp"
+import BannerPoster from "media/home/bannerImageNew.webp"
 import { BoatIcon, BusinessIcon, CondoIcon, HomeIcon, MedicalIcon, MotorcycleIcon, AutoIcon, WildfireIcon } from "../../app-constants"
 
 
