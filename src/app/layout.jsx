@@ -16,12 +16,12 @@ const poppins = Poppins({
 
 export const metadata = {
   metadataBase: new URL("https://www.circadianbrokers.com/"),
-  title: "Insurance Broker in California",
+  title: "Circadian Brokers, Insurance Broker in California.",
   description:
     "Expert Insurance Brokers in California serving Brentwood & Bay Area. We shop multiple carriers to find you the best rates on auto, home & business insurance.",
   //===== OG Tags =====
   openGraph: {
-    title: "Insurance Broker in California",
+    title: "Circadian Brokers, Insurance Broker in California.",
     description:
       "Expert Insurance Brokers in California serving Brentwood & Bay Area. We shop multiple carriers to find you the best rates on auto, home & business insurance.",
     url: "/",
