@@ -15,6 +15,50 @@ const Page = () => {
       <SimpleContent data={SimpleData} />
       <Testimonial data={TestimonialData} />
       <ContenSection data={ProductContentData} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "InsuranceAgency",
+              "name": "Auto Insurance Brroker in California",
+              "image": "https://www.circadianbrokers.com/logo.webp",
+              "@id": "",
+              "url": "https://www.circadianbrokers.com/auto-insurance",
+              "telephone": "925-417-8500",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "8440 Brentwood Blvd, Ste H Brentwood",
+                "addressLocality": "Brentwood",
+                "addressRegion": "CA",
+                "postalCode": "94513",
+                "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 37.9312535,
+                "longitude": -121.6948379
+              },
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "00:00",
+                "closes": "23:59"
+              },
+              "sameAs": "https://www.facebook.com/circadianinsurance/"
+            }
+          ])
+        }}
+      />
     </>
   );
 };

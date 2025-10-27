@@ -5,14 +5,14 @@ export const metadata = {
   openGraph: {
     title: "Home Insurance in Brentwood, CA - Best Home Insurance Rates",
     description: "Protect what matters most with top-rated home insurance in Brentwood, CA. Secure your home and belongings with quality coverage at competitive rates.",
-    url: "/homeowner-insurance",
+    url: "/home-insurance-quote-clayton-ca",
     siteName: " Circadian Insurance Brokers",
     locale: "en_US",
     type: "website",
     images: "https://www.circadianbrokers.com/logo.webp",
   },
   //===== Canonical =====
-  alternates: { canonical: "/homeowner-insurance" },
+  alternates: { canonical: "/home-insurance-quote-clayton-ca" },
 
 };
 
