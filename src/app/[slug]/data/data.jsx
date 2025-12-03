@@ -339,7 +339,7 @@ export const BlogData = [
     description:
       "Learn the minimum car insurance coverage required for drivers in Brentwood, CA, including 2025 California liability limits and what they mean for you.",
     slug: "minimum-amount-of-car-insurance-a-driver-in-brentwood-needs",
-    title: "What Is the Minimum Amount of Car Insurance a Driver in Brentwood Needs?",
+    title: "The Minimum Amount of Car Insurance a Driver in Brentwood Needs",
     date: "15 July, 2025",
     img: IMG03.src,
     maintxt: (<>
@@ -479,7 +479,7 @@ export const BlogData = [
       { title: "How Circadian Insurance Supports Brentwood Drivers" },
       { title: "Final Thoughts: Stay Covered, Stay Confident" },
     ],
-    tit: "Auto Insurance Requirements in Brentwood, CA | Circadian Insurance",
+    tit: "What Are the Auto Insurance Requirements in Brentwood, CA?",
     description:
       "Learn the updated 2025 auto insurance requirements in Brentwood, CA. Understand minimum coverage limits and how to stay compliant with California law.",
     slug: "auto-insurance-requirements-in-brentwood-ca",
@@ -589,9 +589,9 @@ export const BlogData = [
       { title: "Real Protection, Real People" },
       { title: "Final Thoughts" },
     ],
-    tit: "Minimum Auto Insurance Requirements for Brentwood Drivers | Circadian Insurance",
+    tit: "Minimum Auto Insurance Requirements for Brentwood Drivers",
     description:
-      "Find out the latest minimum auto insurance requirements for Brentwood, CA drivers. Learn what coverage you need in 2025 and how you can stay protected and compliant.",
+      "Find out the latest minimum auto insurance requirements for Brentwood, CA drivers. Learn what coverage you need in 2025 and how you can stay compliant.",
     slug: "minimum-auto-insurance-requirements-in-brentwood",
     title: "Minimum Auto Insurance Requirements for Brentwood Drivers",
     date: "15 July, 2025",
@@ -1323,7 +1323,7 @@ export const BlogData = [
     ],
     tit: "What is Liability Car Insurance and What Does It Cover?",
     description:
-      "Learn what liability car insurance is, what it covers, and why it’s essential for California drivers. Get informed before choosing your auto insurance coverage.",
+      "Find out the latest minimum auto insurance requirements for Brentwood, CA drivers. Learn what coverage you need in 2025 and how you can stay compliant.",
     slug: "what-is-liability-car-insurance-and-what-does-it-cover",
     title: "What is Liability Car Insurance & What Does It Cover?",
     date: "31 July, 2025",
@@ -1598,7 +1598,7 @@ export const BlogData = [
     description:
       "Looking for the best auto insurance in Brentwood, CA? Discover top-rated providers based on real customer reviews, service quality, and satisfaction.",
     slug: "choosing-the-best-auto-insurance-in-brentwood",
-    title: "Choosing the Best Auto Insurance in Brentwood Based on Customer Satisfaction",
+    title: "Selecting Auto Insurance in Brentwood Based on Customer Satisfaction",
     date: "26 Aug, 2025",
     img: IMG13.src,
     maintxt: (<>
@@ -1872,7 +1872,7 @@ export const BlogData = [
       { title: "Why Work with a Local Insurance Broker in Brentwood?" },
       { title: "Final Thoughts" },
     ],
-    tit: "Maximizing Your Savings with Brentwood Auto Insurance Discounts",
+    tit: "Save More with Brentwood Auto Insurance Discounts",
     description:
       "10 proven ways to maximize auto insurance discounts in Brentwood, CA. Bundle policies, safe driver rewards & telematics programs. Get your free quote today!",
     slug: "maximizing-your-savings-with-brentwood-auto-insurance-discounts",
@@ -2039,7 +2039,7 @@ export const BlogData = [
     ],
     tit: "Someone Hit Your Parked Car? Here’s What to Do",
     description:
-      "Someone hit your parked car in Brentwood, CA? Learn the exact steps to take, from documenting damage to filing claims, and discover how the right auto insurance can protect you.",
+      "Someone hit your parked car in Brentwood, CA? Learn steps to file a claim and protect yourself with the right auto insurance.",
     slug: "here-is-what-to-do-when-someone-hit-your-parked-car",
     title: "Someone Hit Your Parked Car – Here's What You MUST Do Next!",
     date: "26 Aug, 2025",
@@ -2193,7 +2193,7 @@ export const BlogData = [
     ],
     tit: "Stacked vs. Unstacked Car Insurance: Which Saves You More?",
     description:
-      "Confused about stacked vs. unstacked car insurance? Learn the key differences, how they affect coverage and claims, and which one offers better value for your policy.",
+      "Confused about stacked vs. unstacked car insurance? Learn the key differences, how they affect coverage, and which one offers better value for your policy.",
     slug: "stacked-vs-unstacked-car-insurance",
     title: "Stacked vs. Unstacked Car Insurance: Which One Saves You More?",
     date: "26 Aug, 2025",
@@ -2322,7 +2322,7 @@ export const BlogData = [
     ],
     tit: "Step-by-Step Car Insurance Claims Process in Brentwood, CA",
     description:
-      "Learn exactly what to do after a car accident in Brentwood. This step-by-step guide helps you file your auto insurance claim smoothly and get the payout you deserve.",
+      "Learn exactly what to do after a car accident in Brentwood. This guide helps you file your auto insurance claim smoothly and get the payout you deserve.",
     slug: "step-by-step-car-insurance-claims-process-in-brentwood",
     title: "Step-by-Step Process for Handling Car Insurance Claims in Brentwood",
     date: "26 Aug, 2025",
@@ -2781,9 +2781,9 @@ export const BlogData = [
       { title: "Post-Accident Checklist" },
       { title: "Final Thoughts" },
     ],
-    tit: "What to Do After a Car Accident - Essential Steps & Insurance Tips",
+    tit: "What to Do After a Car Accident - Insurance Tips ",
     description:
-      "Discover the exact steps to take after a car accident to stay safe, protect your rights, and handle insurance claims effectively. Learn how to avoid costly mistakes.",
+      "Someone hit your parked car in Brentwood, CA? Learn steps to file a claim and protect yourself with the right auto insurance.",
     slug: "exact-steps-to-take-after-a-car-accident-to-stay-safe",
     title: "What to Do After a Car Accident",
     date: "26 Aug, 2025",

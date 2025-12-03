@@ -3,7 +3,7 @@ import BannerPoster from "media/product/medical/bannerImage.webp"
 
 export const BannerData = {
     title: (<>
-        Avoid Expensive Mistakes <span>with Medical Malpractice</span> Insurance in Brentwood, CA
+        Top Medical Malpractice <span>Insurance Broker</span> in Brentwood, CA
     </>),
     desc: "",
     BannerPoster: BannerPoster.src

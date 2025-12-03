@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Protect Your Property with Earthquake Insurance in Brentwood, CA",
+  title: "Earthquake Insurance Broker in Brentwood, CA",
   description: "Get the best earthquake insurance in Brentwood, CA. Top-Rated earthquake insurance with affordable and comprehensive coverage options. Contact us now.",
 
   //===== OG Tags =====
   openGraph: {
-    title: "Protect Your Property with Earthquake Insurance in Brentwood, CA",
+    title: "Earthquake Insurance Broker in Brentwood, CA",
     description: "Get the best earthquake insurance in Brentwood, CA. Top-Rated earthquake insurance with affordable and comprehensive coverage options. Contact us now.",
     url: "/earthquake-insurance",
     siteName: " Circadian Insurance Brokers",
