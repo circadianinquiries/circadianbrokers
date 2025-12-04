@@ -9,8 +9,7 @@ export function middleware(req) {
   const blockedCountries = ['IN', 'PK', 'BD', 'CH', 'SG', 'RU'];
 
   if (blockedCountries.includes(country)) {
-    // Rewrite the user to /blocked page
-    return NextResponse.rewrite(new URL('/blocked', req.url));
+    return new NextResponse('Access Denied', { status: 403 });
   }
 
   // Allow
