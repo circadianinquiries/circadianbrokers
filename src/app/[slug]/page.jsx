@@ -3,6 +3,7 @@ import style from "@/styles/blog/singlepage.module.scss";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import TableOfContents from "./tablecontent";
+import { notFound } from "next/navigation"; // ✅ Import notFound
 
 export function generateStaticParams() {
     return BlogData.map((post) => ({
@@ -10,13 +11,13 @@ export function generateStaticParams() {
     }));
 }
 
-
 function getDaysAgo(dateString) {
     const postDate = new Date(dateString);
     const today = new Date();
     const diffTime = today - postDate;
     return Math.floor(diffTime / (1000 * 60 * 60 * 24));
 }
+
 export async function generateMetadata({ params }) {
     const blog = BlogData.find((post) => post.slug === params.slug);
     if (!blog) return {};
@@ -44,26 +45,25 @@ export async function generateMetadata({ params }) {
         },
     };
 }
+
 export default function BlogPost({ params }) {
     const blog = BlogData.find((post) => post.slug === params.slug);
 
-    if (!blog) return notFound();
+    if (!blog) return notFound(); // ✅ Now works correctly
 
     return (
         <div className={style.singleBlogSec}>
             <Container>
                 <Row>
-                    <Row>
-                        <Col md={12} lg={12} className="m-auto">
-                            <div className={style.singleBlogBox}>
-                                <h1>{blog.title}</h1>
-                                <div className={style.blogInfo}>
-                                    {blog.date} . <span>{getDaysAgo(blog.date)} days ago</span>
-                                </div>
-
+                    <Col md={12} lg={12} className="m-auto">
+                        <div className={style.singleBlogBox}>
+                            <h1>{blog.title}</h1>
+                            <div className={style.blogInfo}>
+                                {blog.date} · <span>{getDaysAgo(blog.date)} days ago</span>
                             </div>
-                        </Col>
-                    </Row>
+                        </div>
+                    </Col>
+
                     <Col md={12} lg={8} className="order-2 order-lg-1">
                         <div className={style.singleBlogImg}>
                             <Image src={blog.img} alt="Banner Blog" fill />
@@ -74,6 +74,7 @@ export default function BlogPost({ params }) {
                             </div>
                         </div>
                     </Col>
+
                     <Col md={12} lg={4} className="order-1 order-lg-2">
                         <div className={style.blogsideBar}>
                             <TableOfContents tableContent={blog.tableContent} />
@@ -81,6 +82,6 @@ export default function BlogPost({ params }) {
                     </Col>
                 </Row>
             </Container>
-        </div >
+        </div>
     );
 }
