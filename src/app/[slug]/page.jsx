@@ -3,7 +3,7 @@ import style from "@/styles/blog/singlepage.module.scss";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import TableOfContents from "./tablecontent";
-import { notFound } from "next/navigation"; // ✅ Import notFound
+import { notFound } from "next/navigation";
 
 export function generateStaticParams() {
     return BlogData.map((post) => ({
@@ -19,7 +19,9 @@ function getDaysAgo(dateString) {
 }
 
 export async function generateMetadata({ params }) {
-    const blog = BlogData.find((post) => post.slug === params.slug);
+    // unwrap params
+    const { slug } = await params;
+    const blog = BlogData.find((post) => post.slug === slug);
     if (!blog) return {};
 
     return {
@@ -46,10 +48,13 @@ export async function generateMetadata({ params }) {
     };
 }
 
-export default function BlogPost({ params }) {
-    const blog = BlogData.find((post) => post.slug === params.slug);
+export default async function BlogPost({ params }) {
+    // unwrap params
+    const { slug } = await params;
 
-    if (!blog) return notFound(); // ✅ Now works correctly
+    const blog = BlogData.find((post) => post.slug === slug);
+
+    if (!blog) return notFound();
 
     return (
         <div className={style.singleBlogSec}>

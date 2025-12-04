@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // your config
+ productionBrowserSourceMaps: false,
 };
 
 module.exports = nextConfig;
