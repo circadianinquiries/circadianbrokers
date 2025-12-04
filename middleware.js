@@ -2,23 +2,21 @@
 import { NextResponse } from 'next/server';
 
 export function middleware(req) {
-  // Get the visitor country from the header
+  // Country from Vercel edge
   const country = req.headers.get('x-vercel-ip-country');
 
-  // List of blocked countries
-  const blockedCountries = ['IN', 'PK', 'BD']; // use ISO country codes
+  // Blocked country ISO codes
+  const blockedCountries = ['IN', 'PK', 'BD', 'CH', 'SG', 'RU'];
 
   if (blockedCountries.includes(country)) {
-    // Block access with 403
-    // return new NextResponse('Access Denied', { status: 403 });
-    return new NextResponse.rewrite(new URL("/blocked", req.url));
+    // Rewrite the user to /blocked page
+    return NextResponse.rewrite(new URL('/blocked', req.url));
   }
 
-  // Allow all other requests
+  // Allow
   return NextResponse.next();
 }
 
-// Apply middleware to all routes
 export const config = {
   matcher: '/:path*',
 };
