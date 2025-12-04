@@ -1,24 +1,15 @@
 import { NextResponse } from "next/server";
 
 export function middleware(req) {
-  // Vercel provides the country code in req.geo.country
   const country = req.geo?.country || "UNKNOWN";
 
-  console.log("Visitor country:", country); // Optional: for debugging
-
-  // Allow only USA (country code 'US')
-  if (country !== "US") {
-    return new NextResponse(
-      "This website is not available in your region.",
-      { status: 403 }
-    );
+  if (process.env.NODE_ENV === "development" || !process.env.BLOCK_COUNTRIES) {
+    return NextResponse.next(); // allow everything in dev
   }
 
-  // Continue normally for US visitors
+  if (country !== "US") {
+    return new NextResponse("Not available in your region", { status: 403 });
+  }
+
   return NextResponse.next();
 }
-
-// Apply middleware to all routes
-export const config = {
-  matcher: ["/:path*"],
-};
