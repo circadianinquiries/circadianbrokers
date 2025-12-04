@@ -9,7 +9,7 @@ export function middleware(req) {
 
   if (!blockCountries) return NextResponse.next();
 
-  if (country !== "US") {
+  if (country !== "PK") {
     return new NextResponse("Not available in your region", { status: 403 });
   }
 
