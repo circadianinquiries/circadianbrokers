@@ -3,8 +3,12 @@ import { NextResponse } from "next/server";
 export function middleware(req) {
   const country = req.geo?.country || "UNKNOWN";
 
-  if (process.env.NODE_ENV === "development" || !process.env.BLOCK_COUNTRIES) {
-    return NextResponse.next(); // allow everything in dev
+  // Use NEXT_PUBLIC_ env variable
+  const blockCountries = process.env.NEXT_PUBLIC_BLOCK_COUNTRIES === "true";
+
+  // Only block if enabled
+  if (!blockCountries) {
+    return NextResponse.next();
   }
 
   if (country !== "US") {
@@ -13,3 +17,7 @@ export function middleware(req) {
 
   return NextResponse.next();
 }
+
+export const config = {
+  matcher: ["/:path*"],
+};
