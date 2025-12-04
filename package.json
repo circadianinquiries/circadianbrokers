@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.6",
-    "embla-carousel-react": "^8.6.0",
     "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "googleapis": "^150.0.1",
-    "next": "15.3.3",
+    "next": "^16.0.7",
     "nodemailer": "^7.0.3",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.10",
