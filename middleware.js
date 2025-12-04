@@ -10,7 +10,8 @@ export function middleware(req) {
 
   if (blockedCountries.includes(country)) {
     // Block access with 403
-    return new NextResponse('Access Denied', { status: 403 });
+    // return new NextResponse('Access Denied', { status: 403 });
+    return new NextResponse.rewrite(new URL("/blocked", req.url));
   }
 
   // Allow all other requests
