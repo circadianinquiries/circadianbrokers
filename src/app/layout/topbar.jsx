@@ -23,7 +23,14 @@ const TopBar = () => {
                     <Col md={2} className="my-auto">
                         <ul className={styles.socailInfo}>
                             <li>
-                                <Link href="#"><FbIcon /></Link>
+                                <a
+                                    href="https://www.facebook.com/circadianinsurance/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FbIcon />
+                                </a>
+
                             </li>
                         </ul>
                     </Col>
