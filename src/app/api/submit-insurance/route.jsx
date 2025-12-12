@@ -3,22 +3,32 @@ import { google } from 'googleapis';
 import nodemailer from 'nodemailer';
 
 export async function POST(req) {
-    const {
-        name,
-        email,
-        phone,
-        insurance,
-        contact,
-        msg,
-        consent,
-        address,
-        city,
-        state,
-        zip
-    } = await req.json();
-
     try {
-        // Authenticate with Google Sheets API
+        const data = await req.json();
+
+        // ⭐ Honeypot check
+        if (data.website && data.website.trim() !== "") {
+            return NextResponse.json(
+                { message: "Spam detected!" },
+                { status: 400 }
+            );
+        }
+
+        const {
+            name,
+            email,
+            phone,
+            insurance,
+            contact,
+            msg,
+            consent,
+            address,
+            city,
+            state,
+            zip
+        } = data; // ✅ use the first parsed JSON
+
+        // Google Sheets Auth
         const auth = new google.auth.JWT({
             email: process.env.CLIENT_EMAIL,
             key: process.env.PRIVATE_KEY.replace(/\\n/g, '\n'),
@@ -27,7 +37,7 @@ export async function POST(req) {
 
         const sheets = google.sheets({ version: 'v4', auth });
 
-        // Append data to Google Sheet
+        // Append to Google Sheet
         await sheets.spreadsheets.values.append({
             spreadsheetId: process.env.GOOGLE_SHEET_ID,
             range: 'Sheet1!A2',
@@ -37,7 +47,7 @@ export async function POST(req) {
             },
         });
 
-        // Send email notification
+        // Send email
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
@@ -46,7 +56,6 @@ export async function POST(req) {
             },
         });
 
-        // Build dynamic message (skip undefined fields)
         const emailBody = [
             name && `Name: ${name}`,
             email && `Email: ${email}`,

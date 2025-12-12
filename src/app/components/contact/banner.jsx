@@ -63,6 +63,14 @@ const Banner = () => {
                 <Row className="flex">
                     <Col md={6} lg={7}>
                         <form className={styles.formBox} onSubmit={handleSubmit}>
+
+                            <input
+                                type="text"
+                                name="website"
+                                autoComplete="off"
+                                tabIndex="-1"
+                                style={{ display: "none" }}
+                            />
                             <div className={styles.inputBox}>
                                 <label>Name</label>
                                 <input type="text" name="name" required placeholder="Type your full name*" />

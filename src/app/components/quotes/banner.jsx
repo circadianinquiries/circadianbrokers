@@ -56,6 +56,13 @@ const Banenr = () => {
                 <Row>
                     <Col md={6} className="my-auto">
                         <form className={styles.formBox} onSubmit={handleSubmit}>
+                            <input
+                                type="text"
+                                name="website"
+                                autoComplete="off"
+                                tabIndex="-1"
+                                style={{ display: "none" }}
+                            />
                             <div className={styles.inputBox}>
                                 <label>Name</label>
                                 <input type="text" name="name" required placeholder="Type your full name*" />
