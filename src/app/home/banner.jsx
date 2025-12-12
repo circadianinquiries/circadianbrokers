@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Banner = ({ data }) => {
     return (
-        <section className={styles.bannerSection} style={{ backgroundImage: `url(${data.BannerPoster})` }}>
+        <section className={styles.bannerSection}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col sm={8} md={7} lg={7} xl={6} >
@@ -18,6 +18,7 @@ const Banner = ({ data }) => {
                     </Col>
                 </Row>
             </Container>
+            <Image src={data.BannerPoster} alt="Banner Image" fill className={styles.bannerImg} priority sizes="(max-width: 768px) 100vw, 50vw" />
         </section>
     )
 }

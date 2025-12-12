@@ -3,9 +3,17 @@
   background-position: 115% 100%;
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
+
   .bannerTxt {
     padding-right: 100px;
     padding-top: 180px;
+  }
+
+  .bannerImg {
+    object-fit: contain;
+    object-position: top right;
+    z-index: -1;
   }
 }
 
@@ -13,93 +21,119 @@
   .bannerSection {
     height: 550px;
     background-position: 105% 100%;
+
     .bannerTxt {
       padding-right: 30px;
       padding-top: 100px;
+
       h1 {
         margin-bottom: 10px;
       }
     }
   }
 }
+
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .bannerSection {
     height: 550px;
     background-position: 120% 100%;
+
     .bannerTxt {
       padding-right: 0px;
       padding-top: 80px;
+
       h1 {
         margin-bottom: 10px;
       }
     }
   }
 }
+
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .bannerSection {
     height: 550px;
     background-position: 130% 100%;
+
     .bannerTxt {
       padding-right: 0px;
       padding-top: 80px;
+
       h1 {
         margin-bottom: 10px;
       }
     }
   }
 }
+
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .bannerSection {
     background-position: 220% 100%;
     height: 550px;
+
     .bannerTxt {
       padding-right: 0px;
       padding-top: 120px;
+
       h1 {
         margin-bottom: 10px;
       }
     }
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   .bannerSection {
     background-position: 200% 100%;
     height: 400px;
+
     .bannerTxt {
       padding-right: 40px;
       padding-top: 80px;
+
       h1 {
         margin-bottom: 10px;
       }
     }
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bannerSection {
     background-position: 275% 0;
     background-size: 80% auto;
     height: 300px;
+
     .bannerTxt {
       padding-right: 0px;
       padding-top: 50px;
+
       h1 {
         margin-bottom: 10px;
       }
     }
   }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .bannerSection {
     height: 510px;
     background-size: contain;
     background-position: bottom;
+
     .bannerTxt {
       padding-right: 0px;
       padding-top: 30px;
       padding-bottom: 30px;
+
       h1 {
         margin-bottom: 10px;
       }
+    }
+
+    .bannerImg {
+      object-fit: contain;
+      object-position: bottom right;
+      z-index: -1;
     }
   }
 }
