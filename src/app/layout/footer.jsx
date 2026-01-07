@@ -118,7 +118,7 @@ const Footer = () => {
                 <Container className="h-100">
                     <Row className="h-100">
                         <Col md={12} className="text-center my-auto">
-                            <p>© 2025 circadianinsurancebrokers. All Right Reserved</p>
+                            <p>© 2026 circadianinsurancebrokers. All Right Reserved</p>
                         </Col>
                     </Row>
                 </Container>
